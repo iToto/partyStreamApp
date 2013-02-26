@@ -16,13 +16,20 @@
 		7280BB1F16DD1DA400C6757C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB1E16DD1DA400C6757C /* Default.png */; };
 		7280BB2116DD1DA400C6757C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB2016DD1DA400C6757C /* Default@2x.png */; };
 		7280BB2316DD1DA400C6757C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB2216DD1DA400C6757C /* Default-568h@2x.png */; };
-		7280BB2616DD1DA400C6757C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280BB2516DD1DA400C6757C /* ViewController.m */; };
-		7280BB2916DD1DA400C6757C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB2716DD1DA400C6757C /* ViewController.xib */; };
+		7280BB2616DD1DA400C6757C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280BB2516DD1DA400C6757C /* LoginViewController.m */; };
+		7280BB2916DD1DA400C6757C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB2716DD1DA400C6757C /* LoginViewController.xib */; };
 		7280BB3116DD1DA400C6757C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB3016DD1DA400C6757C /* SenTestingKit.framework */; };
 		7280BB3216DD1DA400C6757C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0C16DD1DA400C6757C /* UIKit.framework */; };
 		7280BB3316DD1DA400C6757C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0E16DD1DA400C6757C /* Foundation.framework */; };
 		7280BB3B16DD1DA400C6757C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB3916DD1DA400C6757C /* InfoPlist.strings */; };
 		7280BB3E16DD1DA500C6757C /* partyStreamAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280BB3D16DD1DA500C6757C /* partyStreamAppTests.m */; };
+		7280BB4916DD20A400C6757C /* appIcon_regular.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB4816DD20A400C6757C /* appIcon_regular.png */; };
+		7280BB4B16DD20A700C6757C /* appIcon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB4A16DD20A700C6757C /* appIcon_retina.png */; };
+		7280BB4D16DD20AE00C6757C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB4C16DD20AE00C6757C /* Default.png */; };
+		7280BB4F16DD20B300C6757C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB4E16DD20B300C6757C /* Default@2x.png */; };
+		7280BB5116DD20B700C6757C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB5016DD20B700C6757C /* Default-568h@2x.png */; };
+		7280BB5416DD20F500C6757C /* PartyStream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB5316DD20F500C6757C /* PartyStream.png */; };
+		7280BB5616DD210500C6757C /* picWall.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB5516DD210500C6757C /* picWall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,15 +56,22 @@
 		7280BB1E16DD1DA400C6757C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7280BB2016DD1DA400C6757C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7280BB2216DD1DA400C6757C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		7280BB2416DD1DA400C6757C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7280BB2516DD1DA400C6757C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7280BB2816DD1DA400C6757C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7280BB2416DD1DA400C6757C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7280BB2516DD1DA400C6757C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7280BB2816DD1DA400C6757C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LoginViewController.xib; sourceTree = "<group>"; };
 		7280BB2F16DD1DA400C6757C /* partyStreamAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = partyStreamAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7280BB3016DD1DA400C6757C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7280BB3816DD1DA400C6757C /* partyStreamAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "partyStreamAppTests-Info.plist"; sourceTree = "<group>"; };
 		7280BB3A16DD1DA400C6757C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7280BB3C16DD1DA400C6757C /* partyStreamAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = partyStreamAppTests.h; sourceTree = "<group>"; };
 		7280BB3D16DD1DA500C6757C /* partyStreamAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = partyStreamAppTests.m; sourceTree = "<group>"; };
+		7280BB4816DD20A400C6757C /* appIcon_regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon_regular.png; sourceTree = "<group>"; };
+		7280BB4A16DD20A700C6757C /* appIcon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon_retina.png; sourceTree = "<group>"; };
+		7280BB4C16DD20AE00C6757C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7280BB4E16DD20B300C6757C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7280BB5016DD20B700C6757C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7280BB5316DD20F500C6757C /* PartyStream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PartyStream.png; sourceTree = "<group>"; };
+		7280BB5516DD210500C6757C /* picWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picWall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +101,7 @@
 		7280BB0016DD1DA400C6757C = {
 			isa = PBXGroup;
 			children = (
+				7280BB5216DD20D300C6757C /* Assets */,
 				7280BB1216DD1DA400C6757C /* partyStreamApp */,
 				7280BB3616DD1DA400C6757C /* partyStreamAppTests */,
 				7280BB0B16DD1DA400C6757C /* Frameworks */,
@@ -117,11 +132,9 @@
 		7280BB1216DD1DA400C6757C /* partyStreamApp */ = {
 			isa = PBXGroup;
 			children = (
+				7280BB4716DD1E1300C6757C /* Login */,
 				7280BB1B16DD1DA400C6757C /* AppDelegate.h */,
 				7280BB1C16DD1DA400C6757C /* AppDelegate.m */,
-				7280BB2416DD1DA400C6757C /* ViewController.h */,
-				7280BB2516DD1DA400C6757C /* ViewController.m */,
-				7280BB2716DD1DA400C6757C /* ViewController.xib */,
 				7280BB1316DD1DA400C6757C /* Supporting Files */,
 			);
 			path = partyStreamApp;
@@ -158,6 +171,30 @@
 				7280BB3916DD1DA400C6757C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7280BB4716DD1E1300C6757C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7280BB2416DD1DA400C6757C /* LoginViewController.h */,
+				7280BB2516DD1DA400C6757C /* LoginViewController.m */,
+				7280BB2716DD1DA400C6757C /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		7280BB5216DD20D300C6757C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7280BB5316DD20F500C6757C /* PartyStream.png */,
+				7280BB5516DD210500C6757C /* picWall.png */,
+				7280BB5016DD20B700C6757C /* Default-568h@2x.png */,
+				7280BB4E16DD20B300C6757C /* Default@2x.png */,
+				7280BB4C16DD20AE00C6757C /* Default.png */,
+				7280BB4A16DD20A700C6757C /* appIcon_retina.png */,
+				7280BB4816DD20A400C6757C /* appIcon_regular.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +272,14 @@
 				7280BB1F16DD1DA400C6757C /* Default.png in Resources */,
 				7280BB2116DD1DA400C6757C /* Default@2x.png in Resources */,
 				7280BB2316DD1DA400C6757C /* Default-568h@2x.png in Resources */,
-				7280BB2916DD1DA400C6757C /* ViewController.xib in Resources */,
+				7280BB2916DD1DA400C6757C /* LoginViewController.xib in Resources */,
+				7280BB4916DD20A400C6757C /* appIcon_regular.png in Resources */,
+				7280BB4B16DD20A700C6757C /* appIcon_retina.png in Resources */,
+				7280BB4D16DD20AE00C6757C /* Default.png in Resources */,
+				7280BB4F16DD20B300C6757C /* Default@2x.png in Resources */,
+				7280BB5116DD20B700C6757C /* Default-568h@2x.png in Resources */,
+				7280BB5416DD20F500C6757C /* PartyStream.png in Resources */,
+				7280BB5616DD210500C6757C /* picWall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +316,7 @@
 			files = (
 				7280BB1916DD1DA400C6757C /* main.m in Sources */,
 				7280BB1D16DD1DA400C6757C /* AppDelegate.m in Sources */,
-				7280BB2616DD1DA400C6757C /* ViewController.m in Sources */,
+				7280BB2616DD1DA400C6757C /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,12 +347,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		7280BB2716DD1DA400C6757C /* ViewController.xib */ = {
+		7280BB2716DD1DA400C6757C /* LoginViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7280BB2816DD1DA400C6757C /* en */,
 			);
-			name = ViewController.xib;
+			name = LoginViewController.xib;
 			sourceTree = "<group>";
 		};
 		7280BB3916DD1DA400C6757C /* InfoPlist.strings */ = {
