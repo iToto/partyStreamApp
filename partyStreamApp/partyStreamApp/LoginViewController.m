@@ -26,4 +26,29 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(BOOL)textFieldShouldReturn:(UITextField*)textField;
+{
+    NSInteger nextTag = textField.tag + 1;
+    // Try to find next responder
+    UIResponder* nextResponder = [textField.superview viewWithTag:nextTag];
+    if (nextResponder) {
+        // Found next responder, so set it.
+        [nextResponder becomeFirstResponder];
+    } else {
+        // Not found, so remove keyboard.
+        [textField resignFirstResponder];
+        
+        // Call Login
+        [self logUserIn:self];
+    }
+    return NO; // We do not want UITextField to insert line-breaks.
+}
+
+- (IBAction)logUserIn:(id)sender
+{
+    NSString *username = [[self txtUsername] text];
+    NSString *password = [[self txtPassword] text];
+    NSLog(@"Log User In here with name: %@ and password: %@",username,password);
+}
+
 @end
