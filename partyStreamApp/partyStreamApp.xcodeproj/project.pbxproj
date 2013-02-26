@@ -23,6 +23,13 @@
 		722F4EFA16DC3A7D001E385E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722F4ED516DC3A7C001E385E /* Foundation.framework */; };
 		722F4F0216DC3A7D001E385E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 722F4F0016DC3A7D001E385E /* InfoPlist.strings */; };
 		722F4F0516DC3A7D001E385E /* partyStreamAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 722F4F0416DC3A7D001E385E /* partyStreamAppTests.m */; };
+		722F4F0F16DC3AD7001E385E /* appIcon_regular.png in Resources */ = {isa = PBXBuildFile; fileRef = 722F4F0E16DC3AD7001E385E /* appIcon_regular.png */; };
+		722F4F1116DC3ADA001E385E /* appIcon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 722F4F1016DC3ADA001E385E /* appIcon_retina.png */; };
+		722F4F1316DC3ADE001E385E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 722F4F1216DC3ADE001E385E /* Default.png */; };
+		722F4F1516DC3AE3001E385E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 722F4F1416DC3AE3001E385E /* Default@2x.png */; };
+		722F4F1716DC3AE5001E385E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 722F4F1616DC3AE5001E385E /* Default-568h@2x.png */; };
+		722F4F1916DC3BE3001E385E /* picWall.png in Resources */ = {isa = PBXBuildFile; fileRef = 722F4F1816DC3BE3001E385E /* picWall.png */; };
+		722F4F1B16DC3CBF001E385E /* PartyStream.png in Resources */ = {isa = PBXBuildFile; fileRef = 722F4F1A16DC3CBF001E385E /* PartyStream.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +65,13 @@
 		722F4F0116DC3A7D001E385E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		722F4F0316DC3A7D001E385E /* partyStreamAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = partyStreamAppTests.h; sourceTree = "<group>"; };
 		722F4F0416DC3A7D001E385E /* partyStreamAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = partyStreamAppTests.m; sourceTree = "<group>"; };
+		722F4F0E16DC3AD7001E385E /* appIcon_regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon_regular.png; sourceTree = "<group>"; };
+		722F4F1016DC3ADA001E385E /* appIcon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon_retina.png; sourceTree = "<group>"; };
+		722F4F1216DC3ADE001E385E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		722F4F1416DC3AE3001E385E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		722F4F1616DC3AE5001E385E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		722F4F1816DC3BE3001E385E /* picWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picWall.png; sourceTree = "<group>"; };
+		722F4F1A16DC3CBF001E385E /* PartyStream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PartyStream.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +101,13 @@
 		722F4EC716DC3A7C001E385E = {
 			isa = PBXGroup;
 			children = (
+				722F4F1616DC3AE5001E385E /* Default-568h@2x.png */,
+				722F4F1416DC3AE3001E385E /* Default@2x.png */,
+				722F4F1216DC3ADE001E385E /* Default.png */,
+				722F4F1016DC3ADA001E385E /* appIcon_retina.png */,
+				722F4F0E16DC3AD7001E385E /* appIcon_regular.png */,
+				722F4F1A16DC3CBF001E385E /* PartyStream.png */,
+				722F4F1816DC3BE3001E385E /* picWall.png */,
 				722F4ED916DC3A7C001E385E /* partyStreamApp */,
 				722F4EFD16DC3A7D001E385E /* partyStreamAppTests */,
 				722F4ED216DC3A7C001E385E /* Frameworks */,
@@ -236,6 +257,13 @@
 				722F4EE816DC3A7C001E385E /* Default@2x.png in Resources */,
 				722F4EEA16DC3A7C001E385E /* Default-568h@2x.png in Resources */,
 				722F4EED16DC3A7C001E385E /* MainStoryboard.storyboard in Resources */,
+				722F4F0F16DC3AD7001E385E /* appIcon_regular.png in Resources */,
+				722F4F1116DC3ADA001E385E /* appIcon_retina.png in Resources */,
+				722F4F1316DC3ADE001E385E /* Default.png in Resources */,
+				722F4F1516DC3AE3001E385E /* Default@2x.png in Resources */,
+				722F4F1716DC3AE5001E385E /* Default-568h@2x.png in Resources */,
+				722F4F1916DC3BE3001E385E /* picWall.png in Resources */,
+				722F4F1B16DC3CBF001E385E /* PartyStream.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
