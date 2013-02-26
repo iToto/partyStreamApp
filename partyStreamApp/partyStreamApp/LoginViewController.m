@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import "WebViewController.h"
 
 @interface LoginViewController ()
 
@@ -49,6 +50,13 @@
     NSString *username = [[self txtUsername] text];
     NSString *password = [[self txtPassword] text];
     NSLog(@"Log User In here with name: %@ and password: %@",username,password);
+}
+
+- (IBAction)showRegisterView:(id)sender
+{
+    NSLog(@"Show Registration");
+    WebViewController *wvc = [[WebViewController alloc] init];
+    [self presentViewController:wvc animated:YES completion:nil];
 }
 
 @end
