@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  authentication.m
 //  partyStreamApp
 //
 //  Created by Salvatore D'Agostino on 2013-02-26.
 //  Copyright (c) 2013 Salvatore D'Agostino. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "authentication.h"
 
-@interface ViewController : UIViewController
+@implementation authentication
 
 @end
