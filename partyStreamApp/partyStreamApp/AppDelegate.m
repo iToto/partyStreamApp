@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
 #import "LoginViewController.h"
+#import "Authentication.h"
 
 @implementation AppDelegate
 
@@ -17,6 +17,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
  
     // Override point for customization after application launch.
+    
+    // Pass Auth class to Login Class
+    [[self viewController] setAuth:_auth];
     
     // Call LoginViewController
     self.viewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];

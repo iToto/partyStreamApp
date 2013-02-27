@@ -8,12 +8,15 @@
 
 #import "LoginViewController.h"
 #import "WebViewController.h"
+#import "Authentication.h"
 
 @interface LoginViewController ()
 
 @end
 
 @implementation LoginViewController
+
+@synthesize auth;
 
 - (void)viewDidLoad
 {
@@ -50,6 +53,12 @@
     NSString *username = [[self txtUsername] text];
     NSString *password = [[self txtPassword] text];
     NSLog(@"Log User In here with name: %@ and password: %@",username,password);
+    
+    BOOL authenticated;
+    
+    authenticated = [[self auth] authenticateWithUsername:username andPassword:password];
+    
+    NSLog(@"Response From Authenticate: %@", authenticated ? @"YES" : @"NO");
 }
 
 - (IBAction)showRegisterView:(id)sender

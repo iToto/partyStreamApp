@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+
 @class LoginViewController;
+@class Authentication;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) LoginViewController *viewController;
+@property (strong,nonatomic) Authentication *auth;
 
 @end
