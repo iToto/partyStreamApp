@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7240B8B216DE6CE700090109 /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7240B8B116DE6CE700090109 /* Authentication.m */; };
 		7280BB0D16DD1DA400C6757C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0C16DD1DA400C6757C /* UIKit.framework */; };
 		7280BB0F16DD1DA400C6757C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0E16DD1DA400C6757C /* Foundation.framework */; };
 		7280BB1116DD1DA400C6757C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB1016DD1DA400C6757C /* CoreGraphics.framework */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7240B8B016DE6CE700090109 /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
+		7240B8B116DE6CE700090109 /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
 		7280BB0916DD1DA400C6757C /* partyStreamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = partyStreamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7280BB0C16DD1DA400C6757C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7280BB0E16DD1DA400C6757C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7240B8AF16DE6CAF00090109 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				7240B8B016DE6CE700090109 /* Authentication.h */,
+				7240B8B116DE6CE700090109 /* Authentication.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		7280BB0016DD1DA400C6757C = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +149,7 @@
 		7280BB1216DD1DA400C6757C /* partyStreamApp */ = {
 			isa = PBXGroup;
 			children = (
+				7240B8AF16DE6CAF00090109 /* Libraries */,
 				7280BB4716DD1E1300C6757C /* Login */,
 				7280BB1B16DD1DA400C6757C /* AppDelegate.h */,
 				7280BB1C16DD1DA400C6757C /* AppDelegate.m */,
@@ -327,6 +340,7 @@
 				7280BB1D16DD1DA400C6757C /* AppDelegate.m in Sources */,
 				7280BB2616DD1DA400C6757C /* LoginViewController.m in Sources */,
 				7280BB5B16DD5DB100C6757C /* WebViewController.m in Sources */,
+				7240B8B216DE6CE700090109 /* Authentication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +521,7 @@
 				7280BB4316DD1DA500C6757C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7280BB4416DD1DA500C6757C /* Build configuration list for PBXNativeTarget "partyStreamAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				7280BB4616DD1DA500C6757C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
