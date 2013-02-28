@@ -9,14 +9,14 @@
 #import "LoginViewController.h"
 #import "WebViewController.h"
 #import "Authentication.h"
+#import "AppDelegate.h"
+
 
 @interface LoginViewController ()
 
 @end
 
 @implementation LoginViewController
-
-@synthesize auth;
 
 - (void)viewDidLoad
 {
@@ -56,7 +56,9 @@
     
     BOOL authenticated;
     
-    authenticated = [[self auth] authenticateWithUsername:username andPassword:password];
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    authenticated = [[appDelegate auth] authenticateWithUsername:username andPassword:password];
     
     NSLog(@"Response From Authenticate: %@", authenticated ? @"YES" : @"NO");
 }

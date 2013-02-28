@@ -23,6 +23,7 @@
     // TODO Send request to backend to authenticate the user
     // TODO Store the token for use through the life of the app
     
+    NSLog(@"Authenticating User %@ with Password %@",name,pass);
     return YES;
 }
 

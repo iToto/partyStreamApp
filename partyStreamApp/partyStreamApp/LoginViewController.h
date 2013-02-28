@@ -16,7 +16,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *txtUsername;
 @property (weak, nonatomic) IBOutlet UITextField *txtPassword;
 @property (strong, nonatomic) LoginViewController *viewController;
-@property (strong,nonatomic) Authentication *auth;
 
 
 - (IBAction)logUserIn:(id)sender;

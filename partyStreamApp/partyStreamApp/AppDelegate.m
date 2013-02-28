@@ -12,19 +12,19 @@
 
 @implementation AppDelegate
 
+@synthesize auth;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
  
     // Override point for customization after application launch.
-    
-    // Pass Auth class to Login Class
-    [[self viewController] setAuth:_auth];
-    
+   
     // Call LoginViewController
     self.viewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+    [self.window makeKeyAndVisible];    
+    
     return YES;
 }
 
