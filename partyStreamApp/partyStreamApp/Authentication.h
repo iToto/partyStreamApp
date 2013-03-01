@@ -9,14 +9,20 @@
 #import <Foundation/Foundation.h>
 
 @interface Authentication : NSObject
+{
+    NSString *token;
+    NSString *username;
+    NSString *password;
+}
 
 // Class Variables
 @property (nonatomic,readonly) NSString *token;
-@property (nonatomic,copy) NSString *username;
-@property (nonatomic,copy) NSString *password;
+@property (nonatomic,retain) NSString *username;
+@property (nonatomic,retain) NSString *password;
 
 // Class Methods
++(Authentication *)sharedAuthentication;
+
 - (BOOL)authenticateWithUsername:(NSString *)name
                      andPassword:(NSString *)pass;
-
 @end

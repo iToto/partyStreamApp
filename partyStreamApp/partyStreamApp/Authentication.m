@@ -16,14 +16,46 @@
 // Class Variables
 @synthesize token,username,password;
 
+-(id)init
+{
+    if (self = [super init])
+    {
+        username = @"";
+        password = @"";
+        token    = @"";
+    }
+    return self;
+}
+
+-(void)dealloc
+{
+    // Should never be called.
+}
 
 // Methods
-- (BOOL)authenticateWithUsername:(NSString *)name andPassword:(NSString *)pass
++(Authentication *)sharedAuthentication
+{
+    static Authentication *auth = nil;
+    static dispatch_once_t onceToken;
+    
+    dispatch_once(&onceToken, ^{
+        auth = [[self alloc]init];
+    });
+    return auth;
+}
+
+- (BOOL)authenticateWithUsername:(NSString *)name
+                     andPassword:(NSString *)pass
 {
     // TODO Send request to backend to authenticate the user
     // TODO Store the token for use through the life of the app
     
-    NSLog(@"Authenticating User %@ with Password %@",name,pass);
+    username = name;
+    password = pass;
+    
+    token = @"GET TOKEN FROM BACKEND"; // TODO Get token from back-end
+    
+    NSLog(@"Authenticating User %@ with Password %@",username,password);
     return YES;
 }
 

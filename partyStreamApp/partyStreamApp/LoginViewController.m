@@ -56,9 +56,7 @@
     
     BOOL authenticated;
     
-    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    
-    authenticated = [[appDelegate auth] authenticateWithUsername:username andPassword:password];
+    authenticated = [[Authentication sharedAuthentication] authenticateWithUsername:username andPassword:password];
     
     NSLog(@"Response From Authenticate: %@", authenticated ? @"YES" : @"NO");
 }
