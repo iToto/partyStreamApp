@@ -33,6 +33,8 @@
 		7280BB5616DD210500C6757C /* picWall.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB5516DD210500C6757C /* picWall.png */; };
 		7280BB5816DD3BF300C6757C /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB5716DD3BF300C6757C /* WebViewController.xib */; };
 		7280BB5B16DD5DB100C6757C /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280BB5A16DD5DB100C6757C /* WebViewController.m */; };
+		728315C617120B6500EC791C /* ListEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728315C417120B6500EC791C /* ListEventsViewController.m */; };
+		728315C717120B6500EC791C /* ListEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728315C517120B6500EC791C /* ListEventsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,9 @@
 		7280BB5716DD3BF300C6757C /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		7280BB5916DD5DB100C6757C /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		7280BB5A16DD5DB100C6757C /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		728315C317120B6500EC791C /* ListEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListEventsViewController.h; sourceTree = "<group>"; };
+		728315C417120B6500EC791C /* ListEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListEventsViewController.m; sourceTree = "<group>"; };
+		728315C517120B6500EC791C /* ListEventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListEventsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +154,7 @@
 		7280BB1216DD1DA400C6757C /* partyStreamApp */ = {
 			isa = PBXGroup;
 			children = (
+				728315C217120A8400EC791C /* Event */,
 				7240B8AF16DE6CAF00090109 /* Libraries */,
 				7280BB4716DD1E1300C6757C /* Login */,
 				7280BB1B16DD1DA400C6757C /* AppDelegate.h */,
@@ -216,6 +222,16 @@
 				7280BB4816DD20A400C6757C /* appIcon_regular.png */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		728315C217120A8400EC791C /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				728315C317120B6500EC791C /* ListEventsViewController.h */,
+				728315C417120B6500EC791C /* ListEventsViewController.m */,
+				728315C517120B6500EC791C /* ListEventsViewController.xib */,
+			);
+			name = Event;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +318,7 @@
 				7280BB5416DD20F500C6757C /* PartyStream.png in Resources */,
 				7280BB5616DD210500C6757C /* picWall.png in Resources */,
 				7280BB5816DD3BF300C6757C /* WebViewController.xib in Resources */,
+				728315C717120B6500EC791C /* ListEventsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +358,7 @@
 				7280BB2616DD1DA400C6757C /* LoginViewController.m in Sources */,
 				7280BB5B16DD5DB100C6757C /* WebViewController.m in Sources */,
 				7240B8B216DE6CE700090109 /* Authentication.m in Sources */,
+				728315C617120B6500EC791C /* ListEventsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
