@@ -56,7 +56,7 @@
     token = @"GET TOKEN FROM BACKEND"; // TODO Get token from back-end
     
     NSLog(@"Authenticating User %@ with Password %@",username,password);
-    return NO;
+    return YES;
 }
 
 @end

@@ -66,7 +66,7 @@
     else{ // Login Failed
         UIAlertView *alert = [[UIAlertView alloc]
                               initWithTitle:@"Incorrect Login"
-                              message:@"Oops, we had trouble logging you in. Please try again"
+                              message:@"Oops, looks like we couldn't authenticate you. Please try again"
                               delegate:nil
                               cancelButtonTitle:@"OK"
                               otherButtonTitles:nil];
