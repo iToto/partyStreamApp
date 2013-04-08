@@ -59,6 +59,19 @@
     authenticated = [[Authentication sharedAuthentication] authenticateWithUsername:username andPassword:password];
     
     NSLog(@"Response From Authenticate: %@", authenticated ? @"YES" : @"NO");
+    
+    if (authenticated) { // User is authenticated
+        // TODO load Root Navigation Controller
+    }
+    else{ // Login Failed
+        UIAlertView *alert = [[UIAlertView alloc]
+                              initWithTitle:@"Incorrect Login"
+                              message:@"Oops, we had trouble logging you in. Please try again"
+                              delegate:nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil];
+        [alert show];
+    }
 }
 
 - (IBAction)showRegisterView:(id)sender
