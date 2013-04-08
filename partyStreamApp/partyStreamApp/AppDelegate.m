@@ -20,10 +20,12 @@
  
     // Override point for customization after application launch.
    
-    // Call LoginViewController
-    self.viewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];    
+    LoginViewController *loginView = [[LoginViewController alloc]init];
+    
+    // Add LoginViewController to the NavController
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:loginView];
+    [[self window]setRootViewController:navController];
+    [[self window]makeKeyAndVisible];
     
     return YES;
 }

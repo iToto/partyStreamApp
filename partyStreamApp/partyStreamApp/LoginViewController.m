@@ -19,6 +19,18 @@
 
 @implementation LoginViewController
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
+    [super viewWillAppear:animated];
+}
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
+    [super viewWillDisappear:animated];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -62,6 +74,13 @@
     if (authenticated) { // User is authenticated
         // TODO load Root Navigation Controller
         NSLog(@"User authenticated, now listing their events");
+        
+        ListEventsViewController *listEvents = [[ListEventsViewController alloc]init];
+        [[self navigationController]pushViewController:listEvents animated:YES];
+//        AppDelegate *appDelegate = (AppDelegate*)[[UIApplication sharedApplication]delegate];
+//        [[appDelegate navController] pushViewController:listEvents animated:YES];
+//        [[self window] setRootViewController:appDelegate.navController];
+//        [self presentViewController:appDelegate.navController animated:YES completion:nil];
         
     } else { // Login Failed
         NSLog(@"User authentication failed");

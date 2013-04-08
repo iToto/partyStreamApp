@@ -12,5 +12,7 @@
 
 @interface ListEventsViewController : UIViewController
 
+@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) ListEventsViewController *listEvents;
 
 @end

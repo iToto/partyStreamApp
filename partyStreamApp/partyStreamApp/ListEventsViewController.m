@@ -7,6 +7,8 @@
 //
 
 #import "ListEventsViewController.h"
+#import "Authentication.h"
+#import "AppDelegate.h"
 
 @interface ListEventsViewController ()
 
