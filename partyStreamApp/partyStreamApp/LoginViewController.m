@@ -10,6 +10,7 @@
 #import "WebViewController.h"
 #import "Authentication.h"
 #import "AppDelegate.h"
+#import "ListEventsViewController.h"
 
 
 @interface LoginViewController ()
@@ -58,18 +59,18 @@
     
     authenticated = [[Authentication sharedAuthentication] authenticateWithUsername:username andPassword:password];
     
-    NSLog(@"Response From Authenticate: %@", authenticated ? @"YES" : @"NO");
-    
     if (authenticated) { // User is authenticated
         // TODO load Root Navigation Controller
-    }
-    else{ // Login Failed
-        UIAlertView *alert = [[UIAlertView alloc]
-                              initWithTitle:@"Incorrect Login"
-                              message:@"Oops, looks like we couldn't authenticate you. Please try again"
-                              delegate:nil
-                              cancelButtonTitle:@"OK"
-                              otherButtonTitles:nil];
+        NSLog(@"User authenticated, now listing their events");
+        
+    } else { // Login Failed
+        NSLog(@"User authentication failed");
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Incorrect Login"
+
+                                                        message:@"Oops, looks like we couldn't authenticate you. Please try again"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
         [alert show];
     }
 }

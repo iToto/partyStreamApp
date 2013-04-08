@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class Authentication;
+
 @interface ListEventsViewController : UIViewController
+
 
 @end
