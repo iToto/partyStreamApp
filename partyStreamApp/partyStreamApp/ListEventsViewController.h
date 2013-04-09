@@ -10,7 +10,7 @@
 
 @class Authentication;
 
-@interface ListEventsViewController : UIViewController
+@interface ListEventsViewController : UITableViewController
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) ListEventsViewController *listEvents;
