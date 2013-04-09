@@ -10,7 +10,8 @@
 
 
 @interface PartyStreamEvents : NSObject
-
-
+{
+    NSDictionary *events;
+}
 
 @end

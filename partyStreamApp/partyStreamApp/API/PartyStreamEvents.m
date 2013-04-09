@@ -7,6 +7,7 @@
 //
 
 #import "PartyStreamEvents.h"
+#import "Authentication.h"
 
 static PartyStreamEvents *defaultEvents = nil;
 
@@ -33,8 +34,56 @@ static PartyStreamEvents *defaultEvents = nil;
         return defaultEvents;
     }
     
-    self = [suer init];
+    self = [super init];
+    
+    if (self) {
+        events = [[NSDictionary alloc]init];
+    }
     
     return self;
 }
+
+- (NSDictionary *)getEventsWithAuthentication:(Authentication *)auth
+{
+    // TODO Get events from API
+    NSString *sampleJSON = @"["
+    @"    {"
+    @"        \"id\": 1,"
+    @"        \"status\": \"0\","
+    @"        \"name\": \"Winterfell\","
+    @"        \"creator\": 2,"
+    @"        \"date_created\": \"2012-11-17T06:11:57.102Z\","
+    @"        \"last_modified\": \"2012-11-17T06:11:57.102Z\","
+    @"        \"event_id\": 1,"
+    @"        \"user_id\": 2,"
+    @"        \"permission\": 2"
+    @"    },"
+    @"    {"
+    @"        \"id\": 1,"
+    @"        \"status\": \"0\","
+    @"        \"name\": \"Winterfell\","
+    @"        \"creator\": 2,"
+    @"        \"date_created\": \"2012-11-17T06:11:57.102Z\","
+    @"        \"last_modified\": \"2012-11-17T06:11:57.102Z\","
+    @"        \"event_id\": 1,"
+    @"        \"user_id\": 2,"
+    @"        \"permission\": 2"
+    @"    },"
+    @"    {"
+    @"        \"id\": 1,"
+    @"        \"status\": \"0\","
+    @"        \"name\": \"Winterfell\","
+    @"        \"creator\": 2,"
+    @"        \"date_created\": \"2012-11-17T06:11:57.102Z\","
+    @"        \"last_modified\": \"2012-11-17T06:11:57.102Z\","
+    @"        \"event_id\": 1,"
+    @"        \"user_id\": 2,"
+    @"        \"permission\": 2"
+    @"    }"
+    @"]";
+    
+//    events ;
+}
+
+
 @end
