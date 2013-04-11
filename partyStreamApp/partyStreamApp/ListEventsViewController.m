@@ -32,9 +32,9 @@
     // Get all events before the view is loaded
     NSDictionary *events = [[PartyStreamEvents defaultEvents] getEventsWithAuthentication:auth];
         
-    for(NSString *key in events) {
-        NSLog(@"%@",[events objectForKey:@"name"]);
-    }
+//    for(NSString *key in events) {
+//        NSLog(@"%@",[events objectForKey:@"name"]);
+//    }
     
 }
 
