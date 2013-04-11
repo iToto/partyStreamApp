@@ -9,6 +9,7 @@
 #import "ListEventsViewController.h"
 #import "Authentication.h"
 #import "AppDelegate.h"
+#import "PartyStreamEvents.h"
 
 @interface ListEventsViewController ()
 
@@ -23,6 +24,18 @@
         // Custom initialization
     }
     return self;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    Authentication *auth = [Authentication sharedAuthentication];
+    // Get all events before the view is loaded
+    NSDictionary *events = [[PartyStreamEvents defaultEvents] getEventsWithAuthentication:auth];
+        
+    for(NSString *key in events) {
+        NSLog(@"%@",[events objectForKey:@"name"]);
+    }
+    
 }
 
 - (void)viewDidLoad
