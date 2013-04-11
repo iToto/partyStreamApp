@@ -11,11 +11,13 @@
 
 @class LoginViewController;
 @class Authentication;
+@class PartyStreamEvents;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) LoginViewController *viewController;
 @property (strong,nonatomic) Authentication *auth;
+@property (strong,nonatomic) PartyStreamEvents *events;
 
 @end
