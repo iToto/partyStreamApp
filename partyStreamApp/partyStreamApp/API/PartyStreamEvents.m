@@ -7,7 +7,6 @@
 //
 
 #import "PartyStreamEvents.h"
-#import "Authentication.h"
 
 static PartyStreamEvents *defaultEvents = nil;
 
@@ -46,6 +45,9 @@ static PartyStreamEvents *defaultEvents = nil;
 - (NSDictionary *)getEventsWithAuthentication:(Authentication *)auth
 {
     // TODO Get events from API
+    
+    
+    
     NSString *sampleJSON = @"["
     @"    {"
     @"        \"id\": 1,"
@@ -81,6 +83,15 @@ static PartyStreamEvents *defaultEvents = nil;
     @"        \"permission\": 2"
     @"    }"
     @"]";
+    
+    NSError *e = [[NSError alloc]init];
+
+    events =
+    [NSJSONSerialization JSONObjectWithData: [sampleJSON dataUsingEncoding:NSUTF8StringEncoding]
+                                    options: NSJSONReadingMutableContainers
+                                      error: &e];
+    
+    return events;
     
 //    events ;
 }

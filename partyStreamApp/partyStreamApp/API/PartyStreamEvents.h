@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Authentication.h"
 
 @interface PartyStreamEvents : NSObject
 {
-    NSDictionary *events;
+        NSDictionary *events;
 }
+
+// Class Methods
+
++ (PartyStreamEvents *)defaultEvents;
+- (NSDictionary *)getEventsWithAuthentication:(Authentication *)auth;
 
 @end
