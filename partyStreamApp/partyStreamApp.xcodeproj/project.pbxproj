@@ -14,9 +14,6 @@
 		7280BB1716DD1DA400C6757C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB1516DD1DA400C6757C /* InfoPlist.strings */; };
 		7280BB1916DD1DA400C6757C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280BB1816DD1DA400C6757C /* main.m */; };
 		7280BB1D16DD1DA400C6757C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280BB1C16DD1DA400C6757C /* AppDelegate.m */; };
-		7280BB1F16DD1DA400C6757C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB1E16DD1DA400C6757C /* Default.png */; };
-		7280BB2116DD1DA400C6757C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB2016DD1DA400C6757C /* Default@2x.png */; };
-		7280BB2316DD1DA400C6757C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB2216DD1DA400C6757C /* Default-568h@2x.png */; };
 		7280BB2616DD1DA400C6757C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280BB2516DD1DA400C6757C /* LoginViewController.m */; };
 		7280BB2916DD1DA400C6757C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB2716DD1DA400C6757C /* LoginViewController.xib */; };
 		7280BB3116DD1DA400C6757C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB3016DD1DA400C6757C /* SenTestingKit.framework */; };
@@ -49,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51B87A54175EA48900E5E75D /* PSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLogging.h; sourceTree = "<group>"; };
 		7240B8B016DE6CE700090109 /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
 		7240B8B116DE6CE700090109 /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
 		7280BB0916DD1DA400C6757C /* partyStreamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = partyStreamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,9 +59,6 @@
 		7280BB1A16DD1DA400C6757C /* partyStreamApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "partyStreamApp-Prefix.pch"; sourceTree = "<group>"; };
 		7280BB1B16DD1DA400C6757C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7280BB1C16DD1DA400C6757C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7280BB1E16DD1DA400C6757C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		7280BB2016DD1DA400C6757C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		7280BB2216DD1DA400C6757C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7280BB2416DD1DA400C6757C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		7280BB2516DD1DA400C6757C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		7280BB2816DD1DA400C6757C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LoginViewController.xib; sourceTree = "<group>"; };
@@ -114,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51B87A53175EA47400E5E75D /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				51B87A54175EA48900E5E75D /* PSLogging.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
 		7240B8AF16DE6CAF00090109 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +129,7 @@
 		7280BB0016DD1DA400C6757C = {
 			isa = PBXGroup;
 			children = (
+				51B87A53175EA47400E5E75D /* Macros */,
 				728A265717137F2500D823E2 /* API */,
 				7280BB5216DD20D300C6757C /* Assets */,
 				7280BB1216DD1DA400C6757C /* partyStreamApp */,
@@ -175,9 +179,6 @@
 				7280BB1516DD1DA400C6757C /* InfoPlist.strings */,
 				7280BB1816DD1DA400C6757C /* main.m */,
 				7280BB1A16DD1DA400C6757C /* partyStreamApp-Prefix.pch */,
-				7280BB1E16DD1DA400C6757C /* Default.png */,
-				7280BB2016DD1DA400C6757C /* Default@2x.png */,
-				7280BB2216DD1DA400C6757C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -320,9 +321,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7280BB1716DD1DA400C6757C /* InfoPlist.strings in Resources */,
-				7280BB1F16DD1DA400C6757C /* Default.png in Resources */,
-				7280BB2116DD1DA400C6757C /* Default@2x.png in Resources */,
-				7280BB2316DD1DA400C6757C /* Default-568h@2x.png in Resources */,
 				7280BB2916DD1DA400C6757C /* LoginViewController.xib in Resources */,
 				7280BB4916DD20A400C6757C /* appIcon_regular.png in Resources */,
 				7280BB4B16DD20A700C6757C /* appIcon_retina.png in Resources */,
@@ -484,6 +482,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "partyStreamApp/partyStreamApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -495,6 +494,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "partyStreamApp/partyStreamApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

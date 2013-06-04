@@ -24,8 +24,8 @@
     
     // Add LoginViewController to the NavController
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:loginView];
-    [[self window]setRootViewController:navController];
-    [[self window]makeKeyAndVisible];
+    [[self window] setRootViewController:navController];
+    [[self window] makeKeyAndVisible];
     
     return YES;
 }

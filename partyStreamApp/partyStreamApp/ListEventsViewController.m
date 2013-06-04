@@ -31,11 +31,8 @@
     Authentication *auth = [Authentication sharedAuthentication];
     // Get all events before the view is loaded
     NSDictionary *events = [[PartyStreamEvents defaultEvents] getEventsWithAuthentication:auth];
-        
-//    for(NSString *key in events) {
-//        NSLog(@"%@",[events objectForKey:@"name"]);
-//    }
     
+    PSDLog( @"Events:\n%@", events.debugDescription );
 }
 
 - (void)viewDidLoad
