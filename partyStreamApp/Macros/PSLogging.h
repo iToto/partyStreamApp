@@ -27,7 +27,7 @@
     call.
  */
 #ifdef DEBUG
-#define PSDLog(fmt, ...) NSLog((@"[%@ %@] - %d -> " fmt), self.class, NSStringFromSelector(_cmd), __LINE__, ##__VA_ARGS__)
+#define PSDLog(fmt, ...) NSLog((@"[%@ %@] (%d): " fmt), self.class, NSStringFromSelector(_cmd), __LINE__, ##__VA_ARGS__)
 #else
 #define PSDLog(fmt, ...) {}
 #endif

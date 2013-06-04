@@ -22,6 +22,11 @@
    
     LoginViewController *loginView = [[LoginViewController alloc]init];
     
+    // this is mostly a test, but also a usgae example for using 'PDLog().'
+    // it is exactly the same as 'NSLog(),' but print more information.
+    // see 'PSLoggin.h' for details.
+    PSDLog( @"hello, Party Stream App." );
+    
     // Add LoginViewController to the NavController
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:loginView];
     [[self window] setRootViewController:navController];
