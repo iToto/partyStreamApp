@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5190B906176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
+		5190B907176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
 		7240B8B216DE6CE700090109 /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7240B8B116DE6CE700090109 /* Authentication.m */; };
 		7280BB0D16DD1DA400C6757C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0C16DD1DA400C6757C /* UIKit.framework */; };
 		7280BB0F16DD1DA400C6757C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0E16DD1DA400C6757C /* Foundation.framework */; };
@@ -46,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5190B905176004AD005A7005 /* PSEventModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PSEventModel.xcdatamodel; sourceTree = "<group>"; };
 		51B87A54175EA48900E5E75D /* PSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLogging.h; sourceTree = "<group>"; };
 		7240B8B016DE6CE700090109 /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
 		7240B8B116DE6CE700090109 /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
@@ -109,6 +112,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5190B90317600498005A7005 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
 		51B87A53175EA47400E5E75D /* Macros */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +140,7 @@
 		7280BB0016DD1DA400C6757C = {
 			isa = PBXGroup;
 			children = (
+				5190B90317600498005A7005 /* DataModels */,
 				51B87A53175EA47400E5E75D /* Macros */,
 				728A265717137F2500D823E2 /* API */,
 				7280BB5216DD20D300C6757C /* Assets */,
@@ -372,6 +384,7 @@
 				7240B8B216DE6CE700090109 /* Authentication.m in Sources */,
 				728315C617120B6500EC791C /* ListEventsViewController.m in Sources */,
 				728A265517137F0800D823E2 /* PartyStreamEvents.m in Sources */,
+				5190B906176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7280BB3E16DD1DA500C6757C /* partyStreamAppTests.m in Sources */,
+				5190B907176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +580,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5190B905176004AD005A7005 /* PSEventModel.xcdatamodel */,
+			);
+			currentVersion = 5190B905176004AD005A7005 /* PSEventModel.xcdatamodel */;
+			path = PSEventModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7280BB0116DD1DA400C6757C /* Project object */;
 }
