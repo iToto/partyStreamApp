@@ -16,7 +16,6 @@
     <entity name="PSEvent" syncable="YES">
         <attribute name="creationDate" optional="YES" attributeType="Double" minValueString="0" defaultValueString="0.0" syncable="YES"/>
         <attribute name="eventId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="lastModified" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
         <attribute name="permission" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -25,7 +24,7 @@
         <relationship name="images" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PSEImage" inverseName="event" inverseEntity="PSEImage" syncable="YES"/>
     </entity>
     <elements>
-        <element name="PSEvent" positionX="-5058" positionY="-1575" width="128" height="178"/>
+        <element name="PSEvent" positionX="-5058" positionY="-1575" width="128" height="163"/>
         <element name="PSEImage" positionX="-4889" positionY="-1494" width="128" height="133"/>
         <element name="PSEIComment" positionX="-4698" positionY="-1458" width="128" height="88"/>
     </elements>
