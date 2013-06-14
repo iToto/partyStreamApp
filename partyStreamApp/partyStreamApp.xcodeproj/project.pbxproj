@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5147FCF4176A97F40007C0AA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5147FCF3176A97F40007C0AA /* CoreData.framework */; };
+		5147FCFB176A98BE0007C0AA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB3016DD1DA400C6757C /* SenTestingKit.framework */; };
+		5147FCFC176A98BE0007C0AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0C16DD1DA400C6757C /* UIKit.framework */; };
+		5147FCFD176A98BE0007C0AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0E16DD1DA400C6757C /* Foundation.framework */; };
+		5147FD03176A98BE0007C0AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5147FD01176A98BE0007C0AA /* InfoPlist.strings */; };
+		5147FD06176A98BE0007C0AA /* PSModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5147FD05176A98BE0007C0AA /* PSModelTests.m */; };
 		5190B906176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
 		5190B907176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
 		7240B8B216DE6CE700090109 /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7240B8B116DE6CE700090109 /* Authentication.m */; };
@@ -48,6 +54,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5147FCF3176A97F40007C0AA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5147FCFA176A98BE0007C0AA /* PSModelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSModelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5147FD00176A98BE0007C0AA /* PSModelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PSModelTests-Info.plist"; sourceTree = "<group>"; };
+		5147FD02176A98BE0007C0AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5147FD04176A98BE0007C0AA /* PSModelTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSModelTests.h; sourceTree = "<group>"; };
+		5147FD05176A98BE0007C0AA /* PSModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSModelTests.m; sourceTree = "<group>"; };
+		5147FD07176A98BE0007C0AA /* PSModelTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSModelTests-Prefix.pch"; sourceTree = "<group>"; };
 		5190B905176004AD005A7005 /* PSEventModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PSEventModel.xcdatamodel; sourceTree = "<group>"; };
 		51B87A54175EA48900E5E75D /* PSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLogging.h; sourceTree = "<group>"; };
 		7240B8B016DE6CE700090109 /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
@@ -89,10 +102,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5147FCF6176A98BE0007C0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5147FCFB176A98BE0007C0AA /* SenTestingKit.framework in Frameworks */,
+				5147FCFC176A98BE0007C0AA /* UIKit.framework in Frameworks */,
+				5147FCFD176A98BE0007C0AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7280BB0616DD1DA400C6757C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5147FCF4176A97F40007C0AA /* CoreData.framework in Frameworks */,
 				7280BB0D16DD1DA400C6757C /* UIKit.framework in Frameworks */,
 				7280BB0F16DD1DA400C6757C /* Foundation.framework in Frameworks */,
 				7280BB1116DD1DA400C6757C /* CoreGraphics.framework in Frameworks */,
@@ -112,6 +136,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5147FCFE176A98BE0007C0AA /* PSModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				5147FD04176A98BE0007C0AA /* PSModelTests.h */,
+				5147FD05176A98BE0007C0AA /* PSModelTests.m */,
+				5147FCFF176A98BE0007C0AA /* Supporting Files */,
+			);
+			path = PSModelTests;
+			sourceTree = "<group>";
+		};
+		5147FCFF176A98BE0007C0AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5147FD00176A98BE0007C0AA /* PSModelTests-Info.plist */,
+				5147FD01176A98BE0007C0AA /* InfoPlist.strings */,
+				5147FD07176A98BE0007C0AA /* PSModelTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5190B90317600498005A7005 /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +190,7 @@
 				7280BB5216DD20D300C6757C /* Assets */,
 				7280BB1216DD1DA400C6757C /* partyStreamApp */,
 				7280BB3616DD1DA400C6757C /* partyStreamAppTests */,
+				5147FCFE176A98BE0007C0AA /* PSModelTests */,
 				7280BB0B16DD1DA400C6757C /* Frameworks */,
 				7280BB0A16DD1DA400C6757C /* Products */,
 			);
@@ -156,6 +201,7 @@
 			children = (
 				7280BB0916DD1DA400C6757C /* partyStreamApp.app */,
 				7280BB2F16DD1DA400C6757C /* partyStreamAppTests.octest */,
+				5147FCFA176A98BE0007C0AA /* PSModelTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +209,7 @@
 		7280BB0B16DD1DA400C6757C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5147FCF3176A97F40007C0AA /* CoreData.framework */,
 				7280BB0C16DD1DA400C6757C /* UIKit.framework */,
 				7280BB0E16DD1DA400C6757C /* Foundation.framework */,
 				7280BB1016DD1DA400C6757C /* CoreGraphics.framework */,
@@ -264,6 +311,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5147FCF9176A98BE0007C0AA /* PSModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5147FD08176A98BE0007C0AA /* Build configuration list for PBXNativeTarget "PSModelTests" */;
+			buildPhases = (
+				5147FCF5176A98BE0007C0AA /* Sources */,
+				5147FCF6176A98BE0007C0AA /* Frameworks */,
+				5147FCF7176A98BE0007C0AA /* Resources */,
+				5147FCF8176A98BE0007C0AA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSModelTests;
+			productName = PSModelTests;
+			productReference = 5147FCFA176A98BE0007C0AA /* PSModelTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		7280BB0816DD1DA400C6757C /* partyStreamApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7280BB4116DD1DA500C6757C /* Build configuration list for PBXNativeTarget "partyStreamApp" */;
@@ -323,11 +388,20 @@
 			targets = (
 				7280BB0816DD1DA400C6757C /* partyStreamApp */,
 				7280BB2E16DD1DA400C6757C /* partyStreamAppTests */,
+				5147FCF9176A98BE0007C0AA /* PSModelTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5147FCF7176A98BE0007C0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5147FD03176A98BE0007C0AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7280BB0716DD1DA400C6757C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,6 +431,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5147FCF8176A98BE0007C0AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		7280BB2D16DD1DA400C6757C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,6 +460,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5147FCF5176A98BE0007C0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5147FD06176A98BE0007C0AA /* PSModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7280BB0516DD1DA400C6757C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,6 +503,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5147FD01176A98BE0007C0AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5147FD02176A98BE0007C0AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		7280BB1516DD1DA400C6757C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,6 +538,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5147FD09176A98BE0007C0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSModelTests/PSModelTests-Prefix.pch";
+				INFOPLIST_FILE = "PSModelTests/PSModelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5147FD0A176A98BE0007C0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSModelTests/PSModelTests-Prefix.pch";
+				INFOPLIST_FILE = "PSModelTests/PSModelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		7280BB3F16DD1DA500C6757C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -552,6 +685,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5147FD08176A98BE0007C0AA /* Build configuration list for PBXNativeTarget "PSModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5147FD09176A98BE0007C0AA /* Debug */,
+				5147FD0A176A98BE0007C0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		7280BB0416DD1DA400C6757C /* Build configuration list for PBXProject "partyStreamApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
