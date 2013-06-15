@@ -28,7 +28,6 @@
 		51241EB2176CFC86006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EB1176CFC86006B134A /* PSEImageResponse.m */; };
 		51241EB3176CFC86006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EB1176CFC86006B134A /* PSEImageResponse.m */; };
 		51241EB4176CFC86006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EB1176CFC86006B134A /* PSEImageResponse.m */; };
-		51241EBE176CFDE4006B134A /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51241EB6176CFDE4006B134A /* libOCMock.a */; };
 		51241EBF176CFDE4006B134A /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51241EB6176CFDE4006B134A /* libOCMock.a */; };
 		51241EC0176CFDE4006B134A /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51241EB6176CFDE4006B134A /* libOCMock.a */; };
 		5147FCF4176A97F40007C0AA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5147FCF3176A97F40007C0AA /* CoreData.framework */; };
@@ -154,7 +153,6 @@
 				7280BB0D16DD1DA400C6757C /* UIKit.framework in Frameworks */,
 				7280BB0F16DD1DA400C6757C /* Foundation.framework in Frameworks */,
 				7280BB1116DD1DA400C6757C /* CoreGraphics.framework in Frameworks */,
-				51241EBE176CFDE4006B134A /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

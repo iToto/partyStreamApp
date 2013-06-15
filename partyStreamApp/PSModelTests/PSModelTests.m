@@ -126,6 +126,7 @@ NSString * const kPSMTShouldThrow    = @"Should throw exception.";
     STAssertNotNil( error, kPSMTShouldNOTBeNil );
 }
 
-
+#pragma mark -
+#pragma mark NSKeyValueObserving Methods
 
 @end
