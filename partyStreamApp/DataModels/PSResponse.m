@@ -14,6 +14,7 @@
 
 @dynamic comment;
 @dynamic responseId;
+@dynamic creation;
 @dynamic event;
 
 @end

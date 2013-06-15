@@ -25,6 +25,7 @@
     </entity>
     <entity name="PSResponse" representedClassName="PSResponse" syncable="YES">
         <attribute name="comment" attributeType="String" syncable="YES"/>
+        <attribute name="creation" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="responseId" attributeType="Integer 16" minValueString="1" defaultValueString="1" syncable="YES"/>
         <relationship name="event" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="PSEvent" inverseName="responses" inverseEntity="PSEvent" syncable="YES"/>
     </entity>
@@ -32,6 +33,6 @@
         <element name="PSEImageResponse" positionX="-4797" positionY="-1467" width="128" height="88"/>
         <element name="PSEvent" positionX="-5058" positionY="-1575" width="128" height="193"/>
         <element name="PSLocation" positionX="-4842" positionY="-1179" width="128" height="103"/>
-        <element name="PSResponse" positionX="-4799" positionY="-1575" width="128" height="90"/>
+        <element name="PSResponse" positionX="-4799" positionY="-1575" width="128" height="103"/>
     </elements>
 </model>

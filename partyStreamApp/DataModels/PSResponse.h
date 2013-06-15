@@ -15,6 +15,7 @@
 
 @property (nonatomic, retain) NSString * comment;
 @property (nonatomic, retain) NSNumber * responseId;
+@property (nonatomic, retain) NSNumber * creation;
 @property (nonatomic, retain) PSEvent *event;
 
 @end
