@@ -25,6 +25,7 @@
     // this is mostly a test, but also a usgae example for using 'PDLog().'
     // it is exactly the same as 'NSLog(),' but print more information.
     // see 'PSLoggin.h' for details.
+    // Withou the 'DEBUG" flag, this log function will be replaced by an empty block.
     PSDLog( @"hello, Party Stream App." );
     
     // Add LoginViewController to the NavController

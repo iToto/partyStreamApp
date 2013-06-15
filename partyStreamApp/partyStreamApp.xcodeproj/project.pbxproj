@@ -7,6 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51241E80176BEBD9006B134A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5147FCF3176A97F40007C0AA /* CoreData.framework */; };
+		51241E83176BEC15006B134A /* PSEventDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E82176BEC15006B134A /* PSEventDefaults.m */; };
+		51241E84176BEC15006B134A /* PSEventDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E82176BEC15006B134A /* PSEventDefaults.m */; };
+		51241E85176BEC15006B134A /* PSEventDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E82176BEC15006B134A /* PSEventDefaults.m */; };
+		51241E8B176CA83A006B134A /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
+		51241E8C176CA854006B134A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5147FCF3176A97F40007C0AA /* CoreData.framework */; };
+		51241E94176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E93176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m */; };
+		51241E95176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E93176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m */; };
+		51241E96176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E93176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m */; };
+		51241E99176CFA64006B134A /* PSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E98176CFA64006B134A /* PSEvent.m */; };
+		51241E9A176CFA64006B134A /* PSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E98176CFA64006B134A /* PSEvent.m */; };
+		51241E9B176CFA64006B134A /* PSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E98176CFA64006B134A /* PSEvent.m */; };
+		51241E9E176CFA65006B134A /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E9D176CFA65006B134A /* PSResponse.m */; };
+		51241E9F176CFA65006B134A /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E9D176CFA65006B134A /* PSResponse.m */; };
+		51241EA0176CFA65006B134A /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E9D176CFA65006B134A /* PSResponse.m */; };
+		51241EA3176CFA65006B134A /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA2176CFA65006B134A /* PSLocation.m */; };
+		51241EA4176CFA65006B134A /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA2176CFA65006B134A /* PSLocation.m */; };
+		51241EA5176CFA65006B134A /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA2176CFA65006B134A /* PSLocation.m */; };
+		51241EB2176CFC86006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EB1176CFC86006B134A /* PSEImageResponse.m */; };
+		51241EB3176CFC86006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EB1176CFC86006B134A /* PSEImageResponse.m */; };
+		51241EB4176CFC86006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EB1176CFC86006B134A /* PSEImageResponse.m */; };
+		51241EBF176CFDE4006B134A /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51241EB6176CFDE4006B134A /* libOCMock.a */; };
+		51241EC0176CFDE4006B134A /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51241EB6176CFDE4006B134A /* libOCMock.a */; };
+		5147FCF4176A97F40007C0AA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5147FCF3176A97F40007C0AA /* CoreData.framework */; };
+		5147FCFB176A98BE0007C0AA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB3016DD1DA400C6757C /* SenTestingKit.framework */; };
+		5147FCFC176A98BE0007C0AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0C16DD1DA400C6757C /* UIKit.framework */; };
+		5147FCFD176A98BE0007C0AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0E16DD1DA400C6757C /* Foundation.framework */; };
+		5147FD03176A98BE0007C0AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5147FD01176A98BE0007C0AA /* InfoPlist.strings */; };
+		5147FD06176A98BE0007C0AA /* PSModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5147FD05176A98BE0007C0AA /* PSModelTests.m */; };
+		5190B906176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
+		5190B907176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
 		7240B8B216DE6CE700090109 /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7240B8B116DE6CE700090109 /* Authentication.m */; };
 		7280BB0D16DD1DA400C6757C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0C16DD1DA400C6757C /* UIKit.framework */; };
 		7280BB0F16DD1DA400C6757C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0E16DD1DA400C6757C /* Foundation.framework */; };
@@ -35,17 +66,33 @@
 		728A265517137F0800D823E2 /* PartyStreamEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 728A265417137F0800D823E2 /* PartyStreamEvents.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7280BB3416DD1DA400C6757C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7280BB0116DD1DA400C6757C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7280BB0816DD1DA400C6757C;
-			remoteInfo = partyStreamApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		51241E81176BEC15006B134A /* PSEventDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEventDefaults.h; sourceTree = "<group>"; };
+		51241E82176BEC15006B134A /* PSEventDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEventDefaults.m; sourceTree = "<group>"; };
+		51241E93176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PSEvent+CoreDataGeneratedAccessors.m"; sourceTree = "<group>"; };
+		51241E97176CFA64006B134A /* PSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEvent.h; sourceTree = "<group>"; };
+		51241E98176CFA64006B134A /* PSEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEvent.m; sourceTree = "<group>"; };
+		51241E9C176CFA65006B134A /* PSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSResponse.h; sourceTree = "<group>"; };
+		51241E9D176CFA65006B134A /* PSResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSResponse.m; sourceTree = "<group>"; };
+		51241EA1176CFA65006B134A /* PSLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLocation.h; sourceTree = "<group>"; };
+		51241EA2176CFA65006B134A /* PSLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLocation.m; sourceTree = "<group>"; };
+		51241EB0176CFC86006B134A /* PSEImageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEImageResponse.h; sourceTree = "<group>"; };
+		51241EB1176CFC86006B134A /* PSEImageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEImageResponse.m; sourceTree = "<group>"; };
+		51241EB6176CFDE4006B134A /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		51241EB8176CFDE4006B134A /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		51241EB9176CFDE4006B134A /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		51241EBA176CFDE4006B134A /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		51241EBB176CFDE4006B134A /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		51241EBC176CFDE4006B134A /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		51241EBD176CFDE4006B134A /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		5147FCF3176A97F40007C0AA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5147FCFA176A98BE0007C0AA /* PSModelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSModelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5147FD00176A98BE0007C0AA /* PSModelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PSModelTests-Info.plist"; sourceTree = "<group>"; };
+		5147FD02176A98BE0007C0AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5147FD04176A98BE0007C0AA /* PSModelTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSModelTests.h; sourceTree = "<group>"; };
+		5147FD05176A98BE0007C0AA /* PSModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSModelTests.m; sourceTree = "<group>"; };
+		5147FD07176A98BE0007C0AA /* PSModelTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSModelTests-Prefix.pch"; sourceTree = "<group>"; };
+		5190B905176004AD005A7005 /* PSEventModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PSEventModel.xcdatamodel; sourceTree = "<group>"; };
 		51B87A54175EA48900E5E75D /* PSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLogging.h; sourceTree = "<group>"; };
 		7240B8B016DE6CE700090109 /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
 		7240B8B116DE6CE700090109 /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
@@ -86,10 +133,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5147FCF6176A98BE0007C0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5147FCFB176A98BE0007C0AA /* SenTestingKit.framework in Frameworks */,
+				5147FCFC176A98BE0007C0AA /* UIKit.framework in Frameworks */,
+				5147FCFD176A98BE0007C0AA /* Foundation.framework in Frameworks */,
+				51241E80176BEBD9006B134A /* CoreData.framework in Frameworks */,
+				51241EC0176CFDE4006B134A /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7280BB0616DD1DA400C6757C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5147FCF4176A97F40007C0AA /* CoreData.framework in Frameworks */,
 				7280BB0D16DD1DA400C6757C /* UIKit.framework in Frameworks */,
 				7280BB0F16DD1DA400C6757C /* Foundation.framework in Frameworks */,
 				7280BB1116DD1DA400C6757C /* CoreGraphics.framework in Frameworks */,
@@ -103,12 +163,83 @@
 				7280BB3116DD1DA400C6757C /* SenTestingKit.framework in Frameworks */,
 				7280BB3216DD1DA400C6757C /* UIKit.framework in Frameworks */,
 				7280BB3316DD1DA400C6757C /* Foundation.framework in Frameworks */,
+				51241E8C176CA854006B134A /* CoreData.framework in Frameworks */,
+				51241EBF176CFDE4006B134A /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51241E91176CEFC8006B134A /* DatModelCats */ = {
+			isa = PBXGroup;
+			children = (
+				51241E93176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m */,
+			);
+			name = DatModelCats;
+			sourceTree = "<group>";
+		};
+		51241EB5176CFDE4006B134A /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				51241EB6176CFDE4006B134A /* libOCMock.a */,
+				51241EB7176CFDE4006B134A /* OCMock */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		51241EB7176CFDE4006B134A /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				51241EB8176CFDE4006B134A /* NSNotificationCenter+OCMAdditions.h */,
+				51241EB9176CFDE4006B134A /* OCMArg.h */,
+				51241EBA176CFDE4006B134A /* OCMConstraint.h */,
+				51241EBB176CFDE4006B134A /* OCMock.h */,
+				51241EBC176CFDE4006B134A /* OCMockObject.h */,
+				51241EBD176CFDE4006B134A /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		5147FCFE176A98BE0007C0AA /* PSModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				5147FD04176A98BE0007C0AA /* PSModelTests.h */,
+				5147FD05176A98BE0007C0AA /* PSModelTests.m */,
+				5147FCFF176A98BE0007C0AA /* Supporting Files */,
+			);
+			path = PSModelTests;
+			sourceTree = "<group>";
+		};
+		5147FCFF176A98BE0007C0AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5147FD00176A98BE0007C0AA /* PSModelTests-Info.plist */,
+				5147FD01176A98BE0007C0AA /* InfoPlist.strings */,
+				5147FD07176A98BE0007C0AA /* PSModelTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5190B90317600498005A7005 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				51241E91176CEFC8006B134A /* DatModelCats */,
+				5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */,
+				51241EB0176CFC86006B134A /* PSEImageResponse.h */,
+				51241EB1176CFC86006B134A /* PSEImageResponse.m */,
+				51241EA1176CFA65006B134A /* PSLocation.h */,
+				51241EA2176CFA65006B134A /* PSLocation.m */,
+				51241E9C176CFA65006B134A /* PSResponse.h */,
+				51241E9D176CFA65006B134A /* PSResponse.m */,
+				51241E97176CFA64006B134A /* PSEvent.h */,
+				51241E98176CFA64006B134A /* PSEvent.m */,
+				51241E81176BEC15006B134A /* PSEventDefaults.h */,
+				51241E82176BEC15006B134A /* PSEventDefaults.m */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
 		51B87A53175EA47400E5E75D /* Macros */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,11 +260,14 @@
 		7280BB0016DD1DA400C6757C = {
 			isa = PBXGroup;
 			children = (
+				51241EB5176CFDE4006B134A /* OCMock */,
+				5190B90317600498005A7005 /* DataModels */,
 				51B87A53175EA47400E5E75D /* Macros */,
 				728A265717137F2500D823E2 /* API */,
 				7280BB5216DD20D300C6757C /* Assets */,
 				7280BB1216DD1DA400C6757C /* partyStreamApp */,
 				7280BB3616DD1DA400C6757C /* partyStreamAppTests */,
+				5147FCFE176A98BE0007C0AA /* PSModelTests */,
 				7280BB0B16DD1DA400C6757C /* Frameworks */,
 				7280BB0A16DD1DA400C6757C /* Products */,
 			);
@@ -144,6 +278,7 @@
 			children = (
 				7280BB0916DD1DA400C6757C /* partyStreamApp.app */,
 				7280BB2F16DD1DA400C6757C /* partyStreamAppTests.octest */,
+				5147FCFA176A98BE0007C0AA /* PSModelTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +286,7 @@
 		7280BB0B16DD1DA400C6757C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5147FCF3176A97F40007C0AA /* CoreData.framework */,
 				7280BB0C16DD1DA400C6757C /* UIKit.framework */,
 				7280BB0E16DD1DA400C6757C /* Foundation.framework */,
 				7280BB1016DD1DA400C6757C /* CoreGraphics.framework */,
@@ -252,6 +388,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5147FCF9176A98BE0007C0AA /* PSModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5147FD08176A98BE0007C0AA /* Build configuration list for PBXNativeTarget "PSModelTests" */;
+			buildPhases = (
+				5147FCF5176A98BE0007C0AA /* Sources */,
+				5147FCF6176A98BE0007C0AA /* Frameworks */,
+				5147FCF7176A98BE0007C0AA /* Resources */,
+				5147FCF8176A98BE0007C0AA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSModelTests;
+			productName = PSModelTests;
+			productReference = 5147FCFA176A98BE0007C0AA /* PSModelTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		7280BB0816DD1DA400C6757C /* partyStreamApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7280BB4116DD1DA500C6757C /* Build configuration list for PBXNativeTarget "partyStreamApp" */;
@@ -281,7 +435,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7280BB3516DD1DA400C6757C /* PBXTargetDependency */,
 			);
 			name = partyStreamAppTests;
 			productName = partyStreamAppTests;
@@ -311,11 +464,20 @@
 			targets = (
 				7280BB0816DD1DA400C6757C /* partyStreamApp */,
 				7280BB2E16DD1DA400C6757C /* partyStreamAppTests */,
+				5147FCF9176A98BE0007C0AA /* PSModelTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5147FCF7176A98BE0007C0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5147FD03176A98BE0007C0AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7280BB0716DD1DA400C6757C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -345,6 +507,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5147FCF8176A98BE0007C0AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		7280BB2D16DD1DA400C6757C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,6 +536,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5147FCF5176A98BE0007C0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5147FD06176A98BE0007C0AA /* PSModelTests.m in Sources */,
+				51241E85176BEC15006B134A /* PSEventDefaults.m in Sources */,
+				51241E8B176CA83A006B134A /* PSEventModel.xcdatamodeld in Sources */,
+				51241E96176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m in Sources */,
+				51241E9B176CFA64006B134A /* PSEvent.m in Sources */,
+				51241EA0176CFA65006B134A /* PSResponse.m in Sources */,
+				51241EA5176CFA65006B134A /* PSLocation.m in Sources */,
+				51241EB4176CFC86006B134A /* PSEImageResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7280BB0516DD1DA400C6757C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,6 +562,13 @@
 				7240B8B216DE6CE700090109 /* Authentication.m in Sources */,
 				728315C617120B6500EC791C /* ListEventsViewController.m in Sources */,
 				728A265517137F0800D823E2 /* PartyStreamEvents.m in Sources */,
+				5190B906176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */,
+				51241E83176BEC15006B134A /* PSEventDefaults.m in Sources */,
+				51241E94176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m in Sources */,
+				51241E99176CFA64006B134A /* PSEvent.m in Sources */,
+				51241E9E176CFA65006B134A /* PSResponse.m in Sources */,
+				51241EA3176CFA65006B134A /* PSLocation.m in Sources */,
+				51241EB2176CFC86006B134A /* PSEImageResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,20 +577,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				7280BB3E16DD1DA500C6757C /* partyStreamAppTests.m in Sources */,
+				5190B907176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */,
+				51241E84176BEC15006B134A /* PSEventDefaults.m in Sources */,
+				51241E95176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m in Sources */,
+				51241E9A176CFA64006B134A /* PSEvent.m in Sources */,
+				51241E9F176CFA65006B134A /* PSResponse.m in Sources */,
+				51241EA4176CFA65006B134A /* PSLocation.m in Sources */,
+				51241EB3176CFC86006B134A /* PSEImageResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		7280BB3516DD1DA400C6757C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7280BB0816DD1DA400C6757C /* partyStreamApp */;
-			targetProxy = 7280BB3416DD1DA400C6757C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
+		5147FD01176A98BE0007C0AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5147FD02176A98BE0007C0AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		7280BB1516DD1DA400C6757C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -421,6 +625,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5147FD09176A98BE0007C0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSModelTests/PSModelTests-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "PSModelTests/PSModelTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5147FD0A176A98BE0007C0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSModelTests/PSModelTests-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "PSModelTests/PSModelTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		7280BB3F16DD1DA500C6757C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -484,7 +728,12 @@
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "partyStreamApp/partyStreamApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -496,7 +745,12 @@
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "partyStreamApp/partyStreamApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -504,7 +758,7 @@
 		7280BB4516DD1DA500C6757C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/partyStreamApp.app/partyStreamApp";
+				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -512,7 +766,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
 				INFOPLIST_FILE = "partyStreamAppTests/partyStreamAppTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -521,7 +780,7 @@
 		7280BB4616DD1DA500C6757C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/partyStreamApp.app/partyStreamApp";
+				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -529,7 +788,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
 				INFOPLIST_FILE = "partyStreamAppTests/partyStreamAppTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -538,6 +802,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5147FD08176A98BE0007C0AA /* Build configuration list for PBXNativeTarget "PSModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5147FD09176A98BE0007C0AA /* Debug */,
+				5147FD0A176A98BE0007C0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7280BB0416DD1DA400C6757C /* Build configuration list for PBXProject "partyStreamApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -566,6 +839,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5190B905176004AD005A7005 /* PSEventModel.xcdatamodel */,
+			);
+			currentVersion = 5190B905176004AD005A7005 /* PSEventModel.xcdatamodel */;
+			path = PSEventModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7280BB0116DD1DA400C6757C /* Project object */;
 }

@@ -92,8 +92,6 @@ static PartyStreamEvents *defaultEvents = nil;
                                       error: &e];
     
     return events;
-    
-//    events ;
 }
 
 
