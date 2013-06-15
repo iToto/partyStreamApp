@@ -11,11 +11,23 @@
 		51241E83176BEC15006B134A /* PSEventDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E82176BEC15006B134A /* PSEventDefaults.m */; };
 		51241E84176BEC15006B134A /* PSEventDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E82176BEC15006B134A /* PSEventDefaults.m */; };
 		51241E85176BEC15006B134A /* PSEventDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E82176BEC15006B134A /* PSEventDefaults.m */; };
-		51241E88176BEDD3006B134A /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E87176BEDD3006B134A /* PSResponse.m */; };
-		51241E89176BEDD3006B134A /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E87176BEDD3006B134A /* PSResponse.m */; };
-		51241E8A176BEDD3006B134A /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E87176BEDD3006B134A /* PSResponse.m */; };
 		51241E8B176CA83A006B134A /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
 		51241E8C176CA854006B134A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5147FCF3176A97F40007C0AA /* CoreData.framework */; };
+		51241E94176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E93176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m */; };
+		51241E95176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E93176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m */; };
+		51241E96176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E93176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m */; };
+		51241E99176CFA64006B134A /* PSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E98176CFA64006B134A /* PSEvent.m */; };
+		51241E9A176CFA64006B134A /* PSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E98176CFA64006B134A /* PSEvent.m */; };
+		51241E9B176CFA64006B134A /* PSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E98176CFA64006B134A /* PSEvent.m */; };
+		51241E9E176CFA65006B134A /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E9D176CFA65006B134A /* PSResponse.m */; };
+		51241E9F176CFA65006B134A /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E9D176CFA65006B134A /* PSResponse.m */; };
+		51241EA0176CFA65006B134A /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E9D176CFA65006B134A /* PSResponse.m */; };
+		51241EA3176CFA65006B134A /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA2176CFA65006B134A /* PSLocation.m */; };
+		51241EA4176CFA65006B134A /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA2176CFA65006B134A /* PSLocation.m */; };
+		51241EA5176CFA65006B134A /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA2176CFA65006B134A /* PSLocation.m */; };
+		51241EA8176CFA65006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA7176CFA65006B134A /* PSEImageResponse.m */; };
+		51241EA9176CFA65006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA7176CFA65006B134A /* PSEImageResponse.m */; };
+		51241EAA176CFA65006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA7176CFA65006B134A /* PSEImageResponse.m */; };
 		5147FCF4176A97F40007C0AA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5147FCF3176A97F40007C0AA /* CoreData.framework */; };
 		5147FCFB176A98BE0007C0AA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB3016DD1DA400C6757C /* SenTestingKit.framework */; };
 		5147FCFC176A98BE0007C0AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0C16DD1DA400C6757C /* UIKit.framework */; };
@@ -24,15 +36,6 @@
 		5147FD06176A98BE0007C0AA /* PSModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5147FD05176A98BE0007C0AA /* PSModelTests.m */; };
 		5190B906176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
 		5190B907176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
-		51BC1DF6176BEA850039E439 /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DF5176BEA850039E439 /* PSEImageResponse.m */; };
-		51BC1DF7176BEA850039E439 /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DF5176BEA850039E439 /* PSEImageResponse.m */; };
-		51BC1DF8176BEA850039E439 /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DF5176BEA850039E439 /* PSEImageResponse.m */; };
-		51BC1E00176BEA850039E439 /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DFF176BEA850039E439 /* PSLocation.m */; };
-		51BC1E01176BEA850039E439 /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DFF176BEA850039E439 /* PSLocation.m */; };
-		51BC1E02176BEA850039E439 /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DFF176BEA850039E439 /* PSLocation.m */; };
-		51BC1E05176BEA850039E439 /* PSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1E04176BEA850039E439 /* PSEvent.m */; };
-		51BC1E06176BEA850039E439 /* PSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1E04176BEA850039E439 /* PSEvent.m */; };
-		51BC1E07176BEA850039E439 /* PSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1E04176BEA850039E439 /* PSEvent.m */; };
 		7240B8B216DE6CE700090109 /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7240B8B116DE6CE700090109 /* Authentication.m */; };
 		7280BB0D16DD1DA400C6757C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0C16DD1DA400C6757C /* UIKit.framework */; };
 		7280BB0F16DD1DA400C6757C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0E16DD1DA400C6757C /* Foundation.framework */; };
@@ -61,21 +64,18 @@
 		728A265517137F0800D823E2 /* PartyStreamEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 728A265417137F0800D823E2 /* PartyStreamEvents.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7280BB3416DD1DA400C6757C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7280BB0116DD1DA400C6757C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7280BB0816DD1DA400C6757C;
-			remoteInfo = partyStreamApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		51241E81176BEC15006B134A /* PSEventDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEventDefaults.h; sourceTree = "<group>"; };
 		51241E82176BEC15006B134A /* PSEventDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEventDefaults.m; sourceTree = "<group>"; };
-		51241E86176BEDD3006B134A /* PSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSResponse.h; sourceTree = "<group>"; };
-		51241E87176BEDD3006B134A /* PSResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSResponse.m; sourceTree = "<group>"; };
+		51241E93176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PSEvent+CoreDataGeneratedAccessors.m"; sourceTree = "<group>"; };
+		51241E97176CFA64006B134A /* PSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEvent.h; sourceTree = "<group>"; };
+		51241E98176CFA64006B134A /* PSEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEvent.m; sourceTree = "<group>"; };
+		51241E9C176CFA65006B134A /* PSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSResponse.h; sourceTree = "<group>"; };
+		51241E9D176CFA65006B134A /* PSResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSResponse.m; sourceTree = "<group>"; };
+		51241EA1176CFA65006B134A /* PSLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLocation.h; sourceTree = "<group>"; };
+		51241EA2176CFA65006B134A /* PSLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLocation.m; sourceTree = "<group>"; };
+		51241EA6176CFA65006B134A /* PSEImageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEImageResponse.h; sourceTree = "<group>"; };
+		51241EA7176CFA65006B134A /* PSEImageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEImageResponse.m; sourceTree = "<group>"; };
 		5147FCF3176A97F40007C0AA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5147FCFA176A98BE0007C0AA /* PSModelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSModelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5147FD00176A98BE0007C0AA /* PSModelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PSModelTests-Info.plist"; sourceTree = "<group>"; };
@@ -85,12 +85,6 @@
 		5147FD07176A98BE0007C0AA /* PSModelTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSModelTests-Prefix.pch"; sourceTree = "<group>"; };
 		5190B905176004AD005A7005 /* PSEventModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PSEventModel.xcdatamodel; sourceTree = "<group>"; };
 		51B87A54175EA48900E5E75D /* PSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLogging.h; sourceTree = "<group>"; };
-		51BC1DF4176BEA850039E439 /* PSEImageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEImageResponse.h; sourceTree = "<group>"; };
-		51BC1DF5176BEA850039E439 /* PSEImageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEImageResponse.m; sourceTree = "<group>"; };
-		51BC1DFE176BEA850039E439 /* PSLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLocation.h; sourceTree = "<group>"; };
-		51BC1DFF176BEA850039E439 /* PSLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLocation.m; sourceTree = "<group>"; };
-		51BC1E03176BEA850039E439 /* PSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEvent.h; sourceTree = "<group>"; };
-		51BC1E04176BEA850039E439 /* PSEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEvent.m; sourceTree = "<group>"; };
 		7240B8B016DE6CE700090109 /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
 		7240B8B116DE6CE700090109 /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
 		7280BB0916DD1DA400C6757C /* partyStreamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = partyStreamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +160,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51241E91176CEFC8006B134A /* DatModelCats */ = {
+			isa = PBXGroup;
+			children = (
+				51241E93176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m */,
+			);
+			name = DatModelCats;
+			sourceTree = "<group>";
+		};
 		5147FCFE176A98BE0007C0AA /* PSModelTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,15 +191,16 @@
 		5190B90317600498005A7005 /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
+				51241E91176CEFC8006B134A /* DatModelCats */,
 				5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */,
-				51241E86176BEDD3006B134A /* PSResponse.h */,
-				51241E87176BEDD3006B134A /* PSResponse.m */,
-				51BC1E03176BEA850039E439 /* PSEvent.h */,
-				51BC1E04176BEA850039E439 /* PSEvent.m */,
-				51BC1DFE176BEA850039E439 /* PSLocation.h */,
-				51BC1DFF176BEA850039E439 /* PSLocation.m */,
-				51BC1DF4176BEA850039E439 /* PSEImageResponse.h */,
-				51BC1DF5176BEA850039E439 /* PSEImageResponse.m */,
+				51241EA6176CFA65006B134A /* PSEImageResponse.h */,
+				51241EA7176CFA65006B134A /* PSEImageResponse.m */,
+				51241EA1176CFA65006B134A /* PSLocation.h */,
+				51241EA2176CFA65006B134A /* PSLocation.m */,
+				51241E9C176CFA65006B134A /* PSResponse.h */,
+				51241E9D176CFA65006B134A /* PSResponse.m */,
+				51241E97176CFA64006B134A /* PSEvent.h */,
+				51241E98176CFA64006B134A /* PSEvent.m */,
 				51241E81176BEC15006B134A /* PSEventDefaults.h */,
 				51241E82176BEC15006B134A /* PSEventDefaults.m */,
 			);
@@ -398,7 +401,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7280BB3516DD1DA400C6757C /* PBXTargetDependency */,
 			);
 			name = partyStreamAppTests;
 			productName = partyStreamAppTests;
@@ -505,12 +507,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5147FD06176A98BE0007C0AA /* PSModelTests.m in Sources */,
-				51BC1DF8176BEA850039E439 /* PSEImageResponse.m in Sources */,
-				51BC1E02176BEA850039E439 /* PSLocation.m in Sources */,
-				51BC1E07176BEA850039E439 /* PSEvent.m in Sources */,
 				51241E85176BEC15006B134A /* PSEventDefaults.m in Sources */,
-				51241E8A176BEDD3006B134A /* PSResponse.m in Sources */,
 				51241E8B176CA83A006B134A /* PSEventModel.xcdatamodeld in Sources */,
+				51241E96176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m in Sources */,
+				51241E9B176CFA64006B134A /* PSEvent.m in Sources */,
+				51241EA0176CFA65006B134A /* PSResponse.m in Sources */,
+				51241EA5176CFA65006B134A /* PSLocation.m in Sources */,
+				51241EAA176CFA65006B134A /* PSEImageResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,11 +529,12 @@
 				728315C617120B6500EC791C /* ListEventsViewController.m in Sources */,
 				728A265517137F0800D823E2 /* PartyStreamEvents.m in Sources */,
 				5190B906176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */,
-				51BC1DF6176BEA850039E439 /* PSEImageResponse.m in Sources */,
-				51BC1E00176BEA850039E439 /* PSLocation.m in Sources */,
-				51BC1E05176BEA850039E439 /* PSEvent.m in Sources */,
 				51241E83176BEC15006B134A /* PSEventDefaults.m in Sources */,
-				51241E88176BEDD3006B134A /* PSResponse.m in Sources */,
+				51241E94176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m in Sources */,
+				51241E99176CFA64006B134A /* PSEvent.m in Sources */,
+				51241E9E176CFA65006B134A /* PSResponse.m in Sources */,
+				51241EA3176CFA65006B134A /* PSLocation.m in Sources */,
+				51241EA8176CFA65006B134A /* PSEImageResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,23 +544,16 @@
 			files = (
 				7280BB3E16DD1DA500C6757C /* partyStreamAppTests.m in Sources */,
 				5190B907176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */,
-				51BC1DF7176BEA850039E439 /* PSEImageResponse.m in Sources */,
-				51BC1E01176BEA850039E439 /* PSLocation.m in Sources */,
-				51BC1E06176BEA850039E439 /* PSEvent.m in Sources */,
 				51241E84176BEC15006B134A /* PSEventDefaults.m in Sources */,
-				51241E89176BEDD3006B134A /* PSResponse.m in Sources */,
+				51241E95176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m in Sources */,
+				51241E9A176CFA64006B134A /* PSEvent.m in Sources */,
+				51241E9F176CFA65006B134A /* PSResponse.m in Sources */,
+				51241EA4176CFA65006B134A /* PSLocation.m in Sources */,
+				51241EA9176CFA65006B134A /* PSEImageResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7280BB3516DD1DA400C6757C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7280BB0816DD1DA400C6757C /* partyStreamApp */;
-			targetProxy = 7280BB3416DD1DA400C6757C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5147FD01176A98BE0007C0AA /* InfoPlist.strings */ = {
@@ -690,6 +687,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "partyStreamApp/partyStreamApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -702,6 +700,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "partyStreamApp/partyStreamApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -709,7 +708,7 @@
 		7280BB4516DD1DA500C6757C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/partyStreamApp.app/partyStreamApp";
+				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -718,6 +717,7 @@
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
 				INFOPLIST_FILE = "partyStreamAppTests/partyStreamAppTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -726,7 +726,7 @@
 		7280BB4616DD1DA500C6757C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/partyStreamApp.app/partyStreamApp";
+				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -735,6 +735,7 @@
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
 				INFOPLIST_FILE = "partyStreamAppTests/partyStreamAppTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
