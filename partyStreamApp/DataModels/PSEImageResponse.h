@@ -13,7 +13,7 @@
 
 @interface PSEImageResponse : PSResponse
 
-@property (nonatomic, retain) NSString * imageDescription;
 @property (nonatomic, retain) NSString * name;
+@property (nonatomic, retain) NSString * path;
 
 @end

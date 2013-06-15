@@ -25,9 +25,12 @@
 		51241EA3176CFA65006B134A /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA2176CFA65006B134A /* PSLocation.m */; };
 		51241EA4176CFA65006B134A /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA2176CFA65006B134A /* PSLocation.m */; };
 		51241EA5176CFA65006B134A /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA2176CFA65006B134A /* PSLocation.m */; };
-		51241EA8176CFA65006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA7176CFA65006B134A /* PSEImageResponse.m */; };
-		51241EA9176CFA65006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA7176CFA65006B134A /* PSEImageResponse.m */; };
-		51241EAA176CFA65006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EA7176CFA65006B134A /* PSEImageResponse.m */; };
+		51241EB2176CFC86006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EB1176CFC86006B134A /* PSEImageResponse.m */; };
+		51241EB3176CFC86006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EB1176CFC86006B134A /* PSEImageResponse.m */; };
+		51241EB4176CFC86006B134A /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241EB1176CFC86006B134A /* PSEImageResponse.m */; };
+		51241EBE176CFDE4006B134A /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51241EB6176CFDE4006B134A /* libOCMock.a */; };
+		51241EBF176CFDE4006B134A /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51241EB6176CFDE4006B134A /* libOCMock.a */; };
+		51241EC0176CFDE4006B134A /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51241EB6176CFDE4006B134A /* libOCMock.a */; };
 		5147FCF4176A97F40007C0AA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5147FCF3176A97F40007C0AA /* CoreData.framework */; };
 		5147FCFB176A98BE0007C0AA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB3016DD1DA400C6757C /* SenTestingKit.framework */; };
 		5147FCFC176A98BE0007C0AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0C16DD1DA400C6757C /* UIKit.framework */; };
@@ -74,8 +77,15 @@
 		51241E9D176CFA65006B134A /* PSResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSResponse.m; sourceTree = "<group>"; };
 		51241EA1176CFA65006B134A /* PSLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLocation.h; sourceTree = "<group>"; };
 		51241EA2176CFA65006B134A /* PSLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLocation.m; sourceTree = "<group>"; };
-		51241EA6176CFA65006B134A /* PSEImageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEImageResponse.h; sourceTree = "<group>"; };
-		51241EA7176CFA65006B134A /* PSEImageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEImageResponse.m; sourceTree = "<group>"; };
+		51241EB0176CFC86006B134A /* PSEImageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEImageResponse.h; sourceTree = "<group>"; };
+		51241EB1176CFC86006B134A /* PSEImageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEImageResponse.m; sourceTree = "<group>"; };
+		51241EB6176CFDE4006B134A /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		51241EB8176CFDE4006B134A /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		51241EB9176CFDE4006B134A /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		51241EBA176CFDE4006B134A /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		51241EBB176CFDE4006B134A /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		51241EBC176CFDE4006B134A /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		51241EBD176CFDE4006B134A /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		5147FCF3176A97F40007C0AA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5147FCFA176A98BE0007C0AA /* PSModelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSModelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5147FD00176A98BE0007C0AA /* PSModelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PSModelTests-Info.plist"; sourceTree = "<group>"; };
@@ -132,6 +142,7 @@
 				5147FCFC176A98BE0007C0AA /* UIKit.framework in Frameworks */,
 				5147FCFD176A98BE0007C0AA /* Foundation.framework in Frameworks */,
 				51241E80176BEBD9006B134A /* CoreData.framework in Frameworks */,
+				51241EC0176CFDE4006B134A /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +154,7 @@
 				7280BB0D16DD1DA400C6757C /* UIKit.framework in Frameworks */,
 				7280BB0F16DD1DA400C6757C /* Foundation.framework in Frameworks */,
 				7280BB1116DD1DA400C6757C /* CoreGraphics.framework in Frameworks */,
+				51241EBE176CFDE4006B134A /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +166,7 @@
 				7280BB3216DD1DA400C6757C /* UIKit.framework in Frameworks */,
 				7280BB3316DD1DA400C6757C /* Foundation.framework in Frameworks */,
 				51241E8C176CA854006B134A /* CoreData.framework in Frameworks */,
+				51241EBF176CFDE4006B134A /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +179,28 @@
 				51241E93176CF004006B134A /* PSEvent+CoreDataGeneratedAccessors.m */,
 			);
 			name = DatModelCats;
+			sourceTree = "<group>";
+		};
+		51241EB5176CFDE4006B134A /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				51241EB6176CFDE4006B134A /* libOCMock.a */,
+				51241EB7176CFDE4006B134A /* OCMock */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		51241EB7176CFDE4006B134A /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				51241EB8176CFDE4006B134A /* NSNotificationCenter+OCMAdditions.h */,
+				51241EB9176CFDE4006B134A /* OCMArg.h */,
+				51241EBA176CFDE4006B134A /* OCMConstraint.h */,
+				51241EBB176CFDE4006B134A /* OCMock.h */,
+				51241EBC176CFDE4006B134A /* OCMockObject.h */,
+				51241EBD176CFDE4006B134A /* OCMockRecorder.h */,
+			);
+			path = OCMock;
 			sourceTree = "<group>";
 		};
 		5147FCFE176A98BE0007C0AA /* PSModelTests */ = {
@@ -193,8 +228,8 @@
 			children = (
 				51241E91176CEFC8006B134A /* DatModelCats */,
 				5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */,
-				51241EA6176CFA65006B134A /* PSEImageResponse.h */,
-				51241EA7176CFA65006B134A /* PSEImageResponse.m */,
+				51241EB0176CFC86006B134A /* PSEImageResponse.h */,
+				51241EB1176CFC86006B134A /* PSEImageResponse.m */,
 				51241EA1176CFA65006B134A /* PSLocation.h */,
 				51241EA2176CFA65006B134A /* PSLocation.m */,
 				51241E9C176CFA65006B134A /* PSResponse.h */,
@@ -227,6 +262,7 @@
 		7280BB0016DD1DA400C6757C = {
 			isa = PBXGroup;
 			children = (
+				51241EB5176CFDE4006B134A /* OCMock */,
 				5190B90317600498005A7005 /* DataModels */,
 				51B87A53175EA47400E5E75D /* Macros */,
 				728A265717137F2500D823E2 /* API */,
@@ -513,7 +549,7 @@
 				51241E9B176CFA64006B134A /* PSEvent.m in Sources */,
 				51241EA0176CFA65006B134A /* PSResponse.m in Sources */,
 				51241EA5176CFA65006B134A /* PSLocation.m in Sources */,
-				51241EAA176CFA65006B134A /* PSEImageResponse.m in Sources */,
+				51241EB4176CFC86006B134A /* PSEImageResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +570,7 @@
 				51241E99176CFA64006B134A /* PSEvent.m in Sources */,
 				51241E9E176CFA65006B134A /* PSResponse.m in Sources */,
 				51241EA3176CFA65006B134A /* PSLocation.m in Sources */,
-				51241EA8176CFA65006B134A /* PSEImageResponse.m in Sources */,
+				51241EB2176CFC86006B134A /* PSEImageResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,7 +585,7 @@
 				51241E9A176CFA64006B134A /* PSEvent.m in Sources */,
 				51241E9F176CFA65006B134A /* PSResponse.m in Sources */,
 				51241EA4176CFA65006B134A /* PSLocation.m in Sources */,
-				51241EA9176CFA65006B134A /* PSEImageResponse.m in Sources */,
+				51241EB3176CFC86006B134A /* PSEImageResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +638,10 @@
 				GCC_PREFIX_HEADER = "PSModelTests/PSModelTests-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "PSModelTests/PSModelTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -618,6 +658,10 @@
 				GCC_PREFIX_HEADER = "PSModelTests/PSModelTests-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "PSModelTests/PSModelTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -686,6 +730,10 @@
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "partyStreamApp/partyStreamApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
@@ -699,6 +747,10 @@
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "partyStreamApp/partyStreamApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
@@ -716,6 +768,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
 				INFOPLIST_FILE = "partyStreamAppTests/partyStreamAppTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -734,6 +790,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
 				INFOPLIST_FILE = "partyStreamAppTests/partyStreamAppTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";

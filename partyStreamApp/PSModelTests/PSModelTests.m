@@ -12,6 +12,7 @@
 #import "PSEvent.h"
 #import "PSLocation.h"
 #import "PSResponse.h"
+#import "PSEImageResponse.h"
 
 #pragma mark -
 #pragma mark FAIL MESSAGES
@@ -107,6 +108,22 @@ NSString * const kPSMTShouldThrow    = @"Should throw exception.";
     NSError *error = 0;
     STAssertFalse( [self.context save:&error], error.debugDescription );
     PSDLog( @"Should not be able to save since \'response.event\' is required:\n%@", error.debugDescription );
+}
+
+-(void)testPSImageResponseFails {
+    PSEImageResponse *image = (PSEImageResponse*)[NSEntityDescription insertNewObjectForEntityForName:kPSEImageResponseName
+                                                                               inManagedObjectContext:self.context];
+    STAssertNotNil( image, kPSMTShouldNOTBeNil );
+    
+    STAssertNoThrow( image.comment = @"Image comment", kPSMTNoThrow );
+    STAssertNoThrow( image.responseId = @999, kPSMTNoThrow );
+    STAssertNoThrow( image.creation = @([[NSDate date] timeIntervalSince1970]), kPSMTNoThrow );
+    STAssertNoThrow( image.path = @"/some/path/to/image.png", kPSMTNoThrow );
+    STAssertThrows( image.event = (id)[NSNull null], kPSMTShouldThrow );
+    
+    NSError *error = 0;
+    STAssertFalse( [self.context save:&error], @"Should not be able to save with setting \'event.\'" );
+    STAssertNotNil( error, kPSMTShouldNOTBeNil );
 }
 
 

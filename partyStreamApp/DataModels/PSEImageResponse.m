@@ -11,7 +11,7 @@
 
 @implementation PSEImageResponse
 
-@dynamic imageDescription;
 @dynamic name;
+@dynamic path;
 
 @end
