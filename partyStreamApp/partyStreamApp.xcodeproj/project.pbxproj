@@ -15,6 +15,18 @@
 		5147FD06176A98BE0007C0AA /* PSModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5147FD05176A98BE0007C0AA /* PSModelTests.m */; };
 		5190B906176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
 		5190B907176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
+		51BC1DF6176BEA850039E439 /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DF5176BEA850039E439 /* PSEImageResponse.m */; };
+		51BC1DF7176BEA850039E439 /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DF5176BEA850039E439 /* PSEImageResponse.m */; };
+		51BC1DF8176BEA850039E439 /* PSEImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DF5176BEA850039E439 /* PSEImageResponse.m */; };
+		51BC1E00176BEA850039E439 /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DFF176BEA850039E439 /* PSLocation.m */; };
+		51BC1E01176BEA850039E439 /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DFF176BEA850039E439 /* PSLocation.m */; };
+		51BC1E02176BEA850039E439 /* PSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DFF176BEA850039E439 /* PSLocation.m */; };
+		51BC1E05176BEA850039E439 /* PSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1E04176BEA850039E439 /* PSEvent.m */; };
+		51BC1E06176BEA850039E439 /* PSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1E04176BEA850039E439 /* PSEvent.m */; };
+		51BC1E07176BEA850039E439 /* PSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1E04176BEA850039E439 /* PSEvent.m */; };
+		51BC1E0A176BEAD90039E439 /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1E09176BEAD90039E439 /* PSResponse.m */; };
+		51BC1E0B176BEAD90039E439 /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1E09176BEAD90039E439 /* PSResponse.m */; };
+		51BC1E0C176BEAD90039E439 /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1E09176BEAD90039E439 /* PSResponse.m */; };
 		7240B8B216DE6CE700090109 /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7240B8B116DE6CE700090109 /* Authentication.m */; };
 		7280BB0D16DD1DA400C6757C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0C16DD1DA400C6757C /* UIKit.framework */; };
 		7280BB0F16DD1DA400C6757C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0E16DD1DA400C6757C /* Foundation.framework */; };
@@ -63,6 +75,14 @@
 		5147FD07176A98BE0007C0AA /* PSModelTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSModelTests-Prefix.pch"; sourceTree = "<group>"; };
 		5190B905176004AD005A7005 /* PSEventModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PSEventModel.xcdatamodel; sourceTree = "<group>"; };
 		51B87A54175EA48900E5E75D /* PSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLogging.h; sourceTree = "<group>"; };
+		51BC1DF4176BEA850039E439 /* PSEImageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEImageResponse.h; sourceTree = "<group>"; };
+		51BC1DF5176BEA850039E439 /* PSEImageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEImageResponse.m; sourceTree = "<group>"; };
+		51BC1DFE176BEA850039E439 /* PSLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLocation.h; sourceTree = "<group>"; };
+		51BC1DFF176BEA850039E439 /* PSLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLocation.m; sourceTree = "<group>"; };
+		51BC1E03176BEA850039E439 /* PSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEvent.h; sourceTree = "<group>"; };
+		51BC1E04176BEA850039E439 /* PSEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEvent.m; sourceTree = "<group>"; };
+		51BC1E08176BEAD90039E439 /* PSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSResponse.h; sourceTree = "<group>"; };
+		51BC1E09176BEAD90039E439 /* PSResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSResponse.m; sourceTree = "<group>"; };
 		7240B8B016DE6CE700090109 /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
 		7240B8B116DE6CE700090109 /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
 		7280BB0916DD1DA400C6757C /* partyStreamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = partyStreamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +180,14 @@
 			isa = PBXGroup;
 			children = (
 				5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */,
+				51BC1E08176BEAD90039E439 /* PSResponse.h */,
+				51BC1E09176BEAD90039E439 /* PSResponse.m */,
+				51BC1E03176BEA850039E439 /* PSEvent.h */,
+				51BC1E04176BEA850039E439 /* PSEvent.m */,
+				51BC1DFE176BEA850039E439 /* PSLocation.h */,
+				51BC1DFF176BEA850039E439 /* PSLocation.m */,
+				51BC1DF4176BEA850039E439 /* PSEImageResponse.h */,
+				51BC1DF5176BEA850039E439 /* PSEImageResponse.m */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -465,6 +493,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5147FD06176A98BE0007C0AA /* PSModelTests.m in Sources */,
+				51BC1DF8176BEA850039E439 /* PSEImageResponse.m in Sources */,
+				51BC1E02176BEA850039E439 /* PSLocation.m in Sources */,
+				51BC1E07176BEA850039E439 /* PSEvent.m in Sources */,
+				51BC1E0C176BEAD90039E439 /* PSResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +512,10 @@
 				728315C617120B6500EC791C /* ListEventsViewController.m in Sources */,
 				728A265517137F0800D823E2 /* PartyStreamEvents.m in Sources */,
 				5190B906176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */,
+				51BC1DF6176BEA850039E439 /* PSEImageResponse.m in Sources */,
+				51BC1E00176BEA850039E439 /* PSLocation.m in Sources */,
+				51BC1E05176BEA850039E439 /* PSEvent.m in Sources */,
+				51BC1E0A176BEAD90039E439 /* PSResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +525,10 @@
 			files = (
 				7280BB3E16DD1DA500C6757C /* partyStreamAppTests.m in Sources */,
 				5190B907176004AD005A7005 /* PSEventModel.xcdatamodeld in Sources */,
+				51BC1DF7176BEA850039E439 /* PSEImageResponse.m in Sources */,
+				51BC1E01176BEA850039E439 /* PSLocation.m in Sources */,
+				51BC1E06176BEA850039E439 /* PSEvent.m in Sources */,
+				51BC1E0B176BEAD90039E439 /* PSResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,6 +732,7 @@
 				5147FD0A176A98BE0007C0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7280BB0416DD1DA400C6757C /* Build configuration list for PBXProject "partyStreamApp" */ = {
 			isa = XCConfigurationList;
