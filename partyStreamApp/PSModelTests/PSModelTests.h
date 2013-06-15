@@ -7,7 +7,10 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import <CoreData/CoreData.h>
 
 @interface PSModelTests : SenTestCase
+
+@property (nonatomic) NSManagedObjectContext *context;
 
 @end

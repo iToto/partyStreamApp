@@ -14,6 +14,8 @@
 		51241E88176BEDD3006B134A /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E87176BEDD3006B134A /* PSResponse.m */; };
 		51241E89176BEDD3006B134A /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E87176BEDD3006B134A /* PSResponse.m */; };
 		51241E8A176BEDD3006B134A /* PSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 51241E87176BEDD3006B134A /* PSResponse.m */; };
+		51241E8B176CA83A006B134A /* PSEventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5190B904176004AD005A7005 /* PSEventModel.xcdatamodeld */; };
+		51241E8C176CA854006B134A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5147FCF3176A97F40007C0AA /* CoreData.framework */; };
 		5147FCF4176A97F40007C0AA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5147FCF3176A97F40007C0AA /* CoreData.framework */; };
 		5147FCFB176A98BE0007C0AA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB3016DD1DA400C6757C /* SenTestingKit.framework */; };
 		5147FCFC176A98BE0007C0AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0C16DD1DA400C6757C /* UIKit.framework */; };
@@ -157,6 +159,7 @@
 				7280BB3116DD1DA400C6757C /* SenTestingKit.framework in Frameworks */,
 				7280BB3216DD1DA400C6757C /* UIKit.framework in Frameworks */,
 				7280BB3316DD1DA400C6757C /* Foundation.framework in Frameworks */,
+				51241E8C176CA854006B134A /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +510,7 @@
 				51BC1E07176BEA850039E439 /* PSEvent.m in Sources */,
 				51241E85176BEC15006B134A /* PSEventDefaults.m in Sources */,
 				51241E8A176BEDD3006B134A /* PSResponse.m in Sources */,
+				51241E8B176CA83A006B134A /* PSEventModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +603,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PSModelTests/PSModelTests-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "PSModelTests/PSModelTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
@@ -614,6 +619,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PSModelTests/PSModelTests-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "PSModelTests/PSModelTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
