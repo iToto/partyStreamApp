@@ -46,7 +46,6 @@
 		7280BB1916DD1DA400C6757C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280BB1816DD1DA400C6757C /* main.m */; };
 		7280BB1D16DD1DA400C6757C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280BB1C16DD1DA400C6757C /* AppDelegate.m */; };
 		7280BB2616DD1DA400C6757C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280BB2516DD1DA400C6757C /* LoginViewController.m */; };
-		7280BB2916DD1DA400C6757C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB2716DD1DA400C6757C /* LoginViewController.xib */; };
 		7280BB3116DD1DA400C6757C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB3016DD1DA400C6757C /* SenTestingKit.framework */; };
 		7280BB3216DD1DA400C6757C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0C16DD1DA400C6757C /* UIKit.framework */; };
 		7280BB3316DD1DA400C6757C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7280BB0E16DD1DA400C6757C /* Foundation.framework */; };
@@ -59,10 +58,8 @@
 		7280BB5116DD20B700C6757C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB5016DD20B700C6757C /* Default-568h@2x.png */; };
 		7280BB5416DD20F500C6757C /* PartyStream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB5316DD20F500C6757C /* PartyStream.png */; };
 		7280BB5616DD210500C6757C /* picWall.png in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB5516DD210500C6757C /* picWall.png */; };
-		7280BB5816DD3BF300C6757C /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7280BB5716DD3BF300C6757C /* WebViewController.xib */; };
 		7280BB5B16DD5DB100C6757C /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280BB5A16DD5DB100C6757C /* WebViewController.m */; };
 		728315C617120B6500EC791C /* ListEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728315C417120B6500EC791C /* ListEventsViewController.m */; };
-		728315C717120B6500EC791C /* ListEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728315C517120B6500EC791C /* ListEventsViewController.xib */; };
 		728A265517137F0800D823E2 /* PartyStreamEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 728A265417137F0800D823E2 /* PartyStreamEvents.m */; };
 		72B76BB2183EE210008211EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B76BB1183EE210008211EC /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
@@ -109,7 +106,6 @@
 		7280BB1C16DD1DA400C6757C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7280BB2416DD1DA400C6757C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		7280BB2516DD1DA400C6757C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		7280BB2816DD1DA400C6757C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LoginViewController.xib; sourceTree = "<group>"; };
 		7280BB2F16DD1DA400C6757C /* partyStreamAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = partyStreamAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7280BB3016DD1DA400C6757C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7280BB3816DD1DA400C6757C /* partyStreamAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "partyStreamAppTests-Info.plist"; sourceTree = "<group>"; };
@@ -123,12 +119,10 @@
 		7280BB5016DD20B700C6757C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7280BB5316DD20F500C6757C /* PartyStream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PartyStream.png; sourceTree = "<group>"; };
 		7280BB5516DD210500C6757C /* picWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picWall.png; sourceTree = "<group>"; };
-		7280BB5716DD3BF300C6757C /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		7280BB5916DD5DB100C6757C /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		7280BB5A16DD5DB100C6757C /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		728315C317120B6500EC791C /* ListEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListEventsViewController.h; sourceTree = "<group>"; };
 		728315C417120B6500EC791C /* ListEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListEventsViewController.m; sourceTree = "<group>"; };
-		728315C517120B6500EC791C /* ListEventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListEventsViewController.xib; sourceTree = "<group>"; };
 		728A265317137F0800D823E2 /* PartyStreamEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PartyStreamEvents.h; path = API/PartyStreamEvents.h; sourceTree = "<group>"; };
 		728A265417137F0800D823E2 /* PartyStreamEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PartyStreamEvents.m; path = API/PartyStreamEvents.m; sourceTree = "<group>"; };
 		72B76BB1183EE210008211EC /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -346,8 +340,6 @@
 			children = (
 				7280BB2416DD1DA400C6757C /* LoginViewController.h */,
 				7280BB2516DD1DA400C6757C /* LoginViewController.m */,
-				7280BB2716DD1DA400C6757C /* LoginViewController.xib */,
-				7280BB5716DD3BF300C6757C /* WebViewController.xib */,
 				7280BB5916DD5DB100C6757C /* WebViewController.h */,
 				7280BB5A16DD5DB100C6757C /* WebViewController.m */,
 			);
@@ -373,7 +365,6 @@
 			children = (
 				728315C317120B6500EC791C /* ListEventsViewController.h */,
 				728315C417120B6500EC791C /* ListEventsViewController.m */,
-				728315C517120B6500EC791C /* ListEventsViewController.xib */,
 			);
 			name = Event;
 			sourceTree = "<group>";
@@ -491,7 +482,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7280BB1716DD1DA400C6757C /* InfoPlist.strings in Resources */,
-				7280BB2916DD1DA400C6757C /* LoginViewController.xib in Resources */,
 				7280BB4916DD20A400C6757C /* appIcon_regular.png in Resources */,
 				7280BB4B16DD20A700C6757C /* appIcon_retina.png in Resources */,
 				7280BB4D16DD20AE00C6757C /* Default.png in Resources */,
@@ -500,8 +490,6 @@
 				7280BB5116DD20B700C6757C /* Default-568h@2x.png in Resources */,
 				7280BB5416DD20F500C6757C /* PartyStream.png in Resources */,
 				7280BB5616DD210500C6757C /* picWall.png in Resources */,
-				7280BB5816DD3BF300C6757C /* WebViewController.xib in Resources */,
-				728315C717120B6500EC791C /* ListEventsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,14 +601,6 @@
 				7280BB1616DD1DA400C6757C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7280BB2716DD1DA400C6757C /* LoginViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7280BB2816DD1DA400C6757C /* en */,
-			);
-			name = LoginViewController.xib;
 			sourceTree = "<group>";
 		};
 		7280BB3916DD1DA400C6757C /* InfoPlist.strings */ = {
