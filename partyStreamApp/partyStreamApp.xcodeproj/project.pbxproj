@@ -64,6 +64,7 @@
 		728315C617120B6500EC791C /* ListEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728315C417120B6500EC791C /* ListEventsViewController.m */; };
 		728315C717120B6500EC791C /* ListEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728315C517120B6500EC791C /* ListEventsViewController.xib */; };
 		728A265517137F0800D823E2 /* PartyStreamEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 728A265417137F0800D823E2 /* PartyStreamEvents.m */; };
+		72B76BB2183EE210008211EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B76BB1183EE210008211EC /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,7 @@
 		728315C517120B6500EC791C /* ListEventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListEventsViewController.xib; sourceTree = "<group>"; };
 		728A265317137F0800D823E2 /* PartyStreamEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PartyStreamEvents.h; path = API/PartyStreamEvents.h; sourceTree = "<group>"; };
 		728A265417137F0800D823E2 /* PartyStreamEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PartyStreamEvents.m; path = API/PartyStreamEvents.m; sourceTree = "<group>"; };
+		72B76BB1183EE210008211EC /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +300,7 @@
 		7280BB1216DD1DA400C6757C /* partyStreamApp */ = {
 			isa = PBXGroup;
 			children = (
+				72B76BB1183EE210008211EC /* MainStoryboard.storyboard */,
 				728315C217120A8400EC791C /* Event */,
 				7240B8AF16DE6CAF00090109 /* Libraries */,
 				7280BB4716DD1E1300C6757C /* Login */,
@@ -449,6 +452,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Salvatore D'Agostino";
+				TargetAttributes = {
+					7280BB0816DD1DA400C6757C = {
+						DevelopmentTeam = E4A2FV35P8;
+					};
+				};
 			};
 			buildConfigurationList = 7280BB0416DD1DA400C6757C /* Build configuration list for PBXProject "partyStreamApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -488,6 +496,7 @@
 				7280BB4B16DD20A700C6757C /* appIcon_retina.png in Resources */,
 				7280BB4D16DD20AE00C6757C /* Default.png in Resources */,
 				7280BB4F16DD20B300C6757C /* Default@2x.png in Resources */,
+				72B76BB2183EE210008211EC /* MainStoryboard.storyboard in Resources */,
 				7280BB5116DD20B700C6757C /* Default-568h@2x.png in Resources */,
 				7280BB5416DD20F500C6757C /* PartyStream.png in Resources */,
 				7280BB5616DD210500C6757C /* picWall.png in Resources */,
@@ -724,10 +733,12 @@
 		7280BB4216DD1DA500C6757C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "partyStreamApp/partyStreamApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/OCMock\"",
@@ -741,10 +752,12 @@
 		7280BB4316DD1DA500C6757C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "partyStreamApp/partyStreamApp-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "partyStreamApp/partyStreamApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/OCMock\"",
